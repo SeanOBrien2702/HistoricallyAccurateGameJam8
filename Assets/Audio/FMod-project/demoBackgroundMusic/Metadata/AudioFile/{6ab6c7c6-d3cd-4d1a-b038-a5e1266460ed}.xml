@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{6ab6c7c6-d3cd-4d1a-b038-a5e1266460ed}">
+		<property name="assetPath">
+			<value>Ambient Music Layer A G-120bpm.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>32.000041666666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{44794a9f-f1cc-42e4-8d83-0eb704657552}</destination>
+		</relationship>
+	</object>
+</objects>
