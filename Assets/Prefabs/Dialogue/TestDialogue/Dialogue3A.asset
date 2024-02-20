@@ -21,5 +21,5 @@ MonoBehaviour:
   dialogueOptions:
   - optionText: Tim leaves
     dialogue: {fileID: 11400000, guid: 77dc7f6efb9c9b34cb17aa46bf8ae08e, type: 2}
-  - optionText: Alace leaves
+  - optionText: Alice leaves
     dialogue: {fileID: 11400000, guid: f8505abfa31e8b74685ea0f577b71935, type: 2}

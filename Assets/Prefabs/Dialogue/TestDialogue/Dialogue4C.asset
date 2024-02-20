@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Dialogue4C
   m_EditorClassIdentifier: 
   dialogueText: Click anywhere to go back
-  leftCharacterName: Time
+  leftCharacterName: Tim
   leftCharacterImage: {fileID: 21300000, guid: dde37da01e7067d47baa44912a396b19, type: 3}
   rightCharacterName: Alice
   rightCharacterImage: {fileID: 21300000, guid: 4b3f78838edca7f4b98174f608fd1413, type: 3}

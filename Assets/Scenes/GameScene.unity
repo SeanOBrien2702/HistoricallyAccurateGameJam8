@@ -404,7 +404,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e46dba0cab71d6b47817aa0ec02910c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraToUse: {fileID: 0}
 --- !u!1 &631762321
 GameObject:
   m_ObjectHideFlags: 0
@@ -782,12 +781,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textSpeed: 0.025
-  leftNameText: {fileID: 1489741208}
-  rightNameText: {fileID: 61187542}
   dialogueText: {fileID: 384063359}
   startingDialogue: {fileID: 11400000, guid: 149fb6999eb46b64db9bfdc4685c532e, type: 2}
+  leftNameText: {fileID: 1489741208}
+  rightNameText: {fileID: 61187542}
   leftCharacter: {fileID: 1612522332}
   rightCharacter: {fileID: 1131585550}
+  optionColour: {r: 0, g: 0.41091633, b: 1, a: 1}
+  hoverColour: {r: 0.16602886, g: 0.34577826, b: 0.38679248, a: 1}
 --- !u!4 &984825857
 Transform:
   m_ObjectHideFlags: 0
