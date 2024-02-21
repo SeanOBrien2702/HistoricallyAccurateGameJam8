@@ -1,11 +1,15 @@
 using System.Collections;
+using System.Collections.Generic;
 using System.Text;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class DialogueController : MonoBehaviour
 {
+    public static event System.Action<Dialogue> OnNewDialogue = delegate { };
+    [SerializeField] HistoryController historyController;
     [Header("Dialogue")]
     [SerializeField] float textSpeed;
     [SerializeField] TextMeshProUGUI dialogueText;
@@ -45,14 +49,35 @@ public class DialogueController : MonoBehaviour
     }
 
     void Update()
-    {
-        if (Input.GetMouseButtonDown(0) && !isReading)
+    {      
+        if (Input.GetMouseButtonDown(0) && 
+            !historyController.IsShown &&
+            !IsOverUI() &&
+            !isReading)
         {
-            if(currentDialogue.NextDialogue != null)
+            if (currentDialogue.NextDialogue != null)
             {
                 StartCoroutine(PlayText(currentDialogue.NextDialogue));
             }          
         }
+    }
+
+    public bool IsOverUI()
+    {
+        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
+        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+
+        foreach (RaycastResult result in results)
+        {
+            if (LayerMask.LayerToName(result.gameObject.layer) == K.UILayer)
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     IEnumerator PlayText(Dialogue dialogue)
@@ -60,6 +85,7 @@ public class DialogueController : MonoBehaviour
         isReading = true;
         dialogueText.text = "";
         currentDialogue = dialogue;
+        OnNewDialogue?.Invoke(dialogue);
         UpdateUI(dialogue);
 
         foreach (char character in dialogue.DialogueText)
