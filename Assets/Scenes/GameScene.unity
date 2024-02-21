@@ -2395,8 +2395,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1874644735}
+  - component: {fileID: 1874644736}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: ContextController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2417,6 +2418,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1874644736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874644734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 193ed8dcd2a602f4dab0b2b02f6f3630, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  background: {fileID: 1702878684}
+  contexts:
+  - {fileID: 11400000, guid: 6058c969da57ef6499089f32b2da0770, type: 2}
+  - {fileID: 11400000, guid: ae54e50c2279fce41ac132c0488f2cb1, type: 2}
+  - {fileID: 11400000, guid: 3410ff01724e10e4397d8439186d62cc, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
