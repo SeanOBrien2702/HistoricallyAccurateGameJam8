@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
+  m_Name: Dialogue 31
+  m_EditorClassIdentifier: 
+  dialogueText: "David faked a smile and nodded his head. Irritating the secretary
+    of state during Mary\u2019s wedding would do neither him nor her any favors this
+    evening."
+  leftCharacterName: David
+  leftCharacterImage: {fileID: 0}
+  rightCharacterName: Maitland
+  rightCharacterImage: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: c29d140d6466b55469ce1222d964939d, type: 2}
+  dialogueOptions: []
