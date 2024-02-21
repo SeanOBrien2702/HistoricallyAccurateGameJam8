@@ -13,7 +13,7 @@ public class Scene1BGMusic : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-            BackgroundMusic = FMODUnity.RuntimeManager.CreateInstance("event:/01-Wedding-Music");
+            BackgroundMusic = FMODUnity.RuntimeManager.CreateInstance("event:/01-Happy-uplifting");
             BackgroundMusic.start();
             musicIsStarted = true;
     }
@@ -26,7 +26,6 @@ public class Scene1BGMusic : MonoBehaviour
             Debug.Log("Next Variation: " + newVariation);
             variation = newVariation;
         }
-
     }
 
     public void toggleMusic() {
