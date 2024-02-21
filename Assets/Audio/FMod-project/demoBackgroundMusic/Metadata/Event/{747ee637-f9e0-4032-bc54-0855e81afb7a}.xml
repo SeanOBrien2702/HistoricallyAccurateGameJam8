@@ -184,8 +184,9 @@
 			<value>true</value>
 		</property>
 		<property name="length">
-			<value>10.5</value>
+			<value>10</value>
 		</property>
+		<property name="name" />
 		<relationship name="parameters">
 			<destination>{0e809874-9662-4498-a9df-8a5e66b831b8}</destination>
 		</relationship>
@@ -318,7 +319,7 @@
 	</object>
 	<object class="CommandSound" id="{7db8b4d5-fa5e-4cf9-aa7e-3ccbe846fad5}">
 		<property name="start">
-			<value>10.5</value>
+			<value>9.5</value>
 		</property>
 		<property name="length">
 			<value>0.5</value>
@@ -346,10 +347,10 @@
 	</object>
 	<object class="LoopRegion" id="{aedf30c9-af1c-4371-898a-0acabd0d05c8}">
 		<property name="position">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="length">
-			<value>3</value>
+			<value>2</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{444a2f03-6861-4e1f-a75f-53cab0518dd4}</destination>
@@ -388,7 +389,7 @@
 	</object>
 	<object class="NamedMarker" id="{a3a1d7a2-f41c-466b-a850-f97615e40b5b}">
 		<property name="position">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="name">
 			<value>Normal Loop</value>
@@ -402,10 +403,10 @@
 	</object>
 	<object class="TransitionRegion" id="{9b97cd4e-c787-4aad-aaae-f42910832688}">
 		<property name="position">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="length">
-			<value>3</value>
+			<value>2</value>
 		</property>
 		<property name="quantizationInterval">
 			<value>6</value>
@@ -453,13 +454,13 @@
 	</object>
 	<object class="TransitionRegion" id="{c136ead5-5ae8-47ac-af57-9fda5e38be55}">
 		<property name="position">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="length">
-			<value>3</value>
+			<value>2</value>
 		</property>
 		<property name="quantizationInterval">
-			<value>8</value>
+			<value>2</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{444a2f03-6861-4e1f-a75f-53cab0518dd4}</destination>
@@ -487,7 +488,7 @@
 	</object>
 	<object class="NamedMarker" id="{5dd8c89f-4229-4071-a0bc-02968ed21f17}">
 		<property name="position">
-			<value>8.5</value>
+			<value>8</value>
 		</property>
 		<property name="name">
 			<value>End</value>
@@ -501,10 +502,10 @@
 	</object>
 	<object class="TransitionRegion" id="{627366ae-4e5f-4ea9-8e4c-4a751052ad33}">
 		<property name="position">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="length">
-			<value>3</value>
+			<value>2</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{444a2f03-6861-4e1f-a75f-53cab0518dd4}</destination>
@@ -614,10 +615,10 @@
 	<object class="MixerBusFader" id="{b1f2e55f-1e12-4eca-8b49-d523069c98b5}" />
 	<object class="AutomationPoint" id="{266eb84f-ee4f-4ff8-915a-15db2564afb9}">
 		<property name="position">
-			<value>0.99704433497536937</value>
+			<value>2</value>
 		</property>
 		<property name="value">
-			<value>3.81469727e-06</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{4dede289-31aa-4b02-870b-b3d5c67eb8b7}">
@@ -630,15 +631,15 @@
 	</object>
 	<object class="AutomationPoint" id="{92fc1a87-6d16-468f-8c5e-8cfedb20d375}">
 		<property name="position">
-			<value>8.4975369458128078</value>
+			<value>8</value>
 		</property>
 		<property name="value">
-			<value>3.81469727e-06</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{4990f741-3965-4ef6-87ee-5f0139b3b053}">
 		<property name="position">
-			<value>10.499178981937602</value>
+			<value>10</value>
 		</property>
 		<property name="value">
 			<value>-80</value>
