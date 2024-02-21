@@ -39,6 +39,7 @@ public class DialogueController : MonoBehaviour
         OptionTextLinkHandler.OnOptionPicked += OptionTextLinkHandler_OnOptionPicked;
         OptionTextLinkHandler.OnHoverOnOption += OptionTextLinkHandler_OnHoverOnOption;
         OptionTextLinkHandler.OnHoverOffOption += OptionTextLinkHandler_OnHoverOffOption;
+        GameSettings.OnReadSpeedChange += GameSettings_OnReadSpeedChange;
     }
 
     private void OnDestroy()
@@ -46,6 +47,7 @@ public class DialogueController : MonoBehaviour
         OptionTextLinkHandler.OnOptionPicked -= OptionTextLinkHandler_OnOptionPicked;
         OptionTextLinkHandler.OnHoverOnOption -= OptionTextLinkHandler_OnHoverOnOption;
         OptionTextLinkHandler.OnHoverOffOption -= OptionTextLinkHandler_OnHoverOffOption;
+        GameSettings.OnReadSpeedChange -= GameSettings_OnReadSpeedChange;
     }
 
     void Update()
@@ -143,5 +145,10 @@ public class DialogueController : MonoBehaviour
             return;
         }
         dialogueText.text = currentText;
+    }
+
+    private void GameSettings_OnReadSpeedChange(float readingSpeed)
+    {
+        textSpeed = readingSpeed;
     }
 }
