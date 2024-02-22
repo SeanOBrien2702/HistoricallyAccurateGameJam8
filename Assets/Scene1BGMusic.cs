@@ -48,19 +48,21 @@ public class Scene1BGMusic : MonoBehaviour
         if (mood != playingMood) {
 
 
-
-            if (mood==1) {
-                intensity=0;
-                BackgroundMusic01.start();
-                BackgroundMusic01.setParameterByName("Status1", 0);
+            switch(mood) {
+                case 1:
+                    intensity=0;
+                    BackgroundMusic01.setParameterByName("Status1", 0);
+                    BackgroundMusic01.start();
+                    break;
+                case 5:
+                    intensity=0;
+                    BackgroundMusic05.setParameterByName("Intensity5", 0f);
+                    BackgroundMusic05.setParameterByName("Status5", 0);
+                    BackgroundMusic05.start();
+                    break;
+                default:
+                    break;
             }
-            if (mood==5) { 
-                intensity=0;
-                BackgroundMusic05.start();
-                BackgroundMusic05.setParameterByName("Intensity5", 0f);
-                BackgroundMusic05.setParameterByName("Status5", 0);
-            }
-
             playingMood = mood;
         } else {
             playingMood = 0;
