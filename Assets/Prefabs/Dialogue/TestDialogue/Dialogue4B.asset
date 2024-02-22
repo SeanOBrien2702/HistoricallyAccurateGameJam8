@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Dialogue4B
   m_EditorClassIdentifier: 
   dialogueText: Click anywhere to go back
-  leftCharacterName: Tim
-  leftCharacterImage: {fileID: 21300000, guid: dde37da01e7067d47baa44912a396b19, type: 3}
+  leftCharacterName: David
+  leftCharacterImage: {fileID: 21300000, guid: f1c109fe9b5f540b6a4311b08c7305e9, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: 149fb6999eb46b64db9bfdc4685c532e, type: 2}

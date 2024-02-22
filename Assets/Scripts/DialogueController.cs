@@ -118,6 +118,7 @@ public class DialogueController : MonoBehaviour
         }
         else
         {
+            leftNameText.text = "";
             leftNameTag.enabled = false;
         }
         if (dialogue.RightCharacterName != "")
@@ -127,10 +128,27 @@ public class DialogueController : MonoBehaviour
         }
         else
         {
+            rightNameText.text = "";
             rightNameTag.enabled = false;
         }
-        leftCharacter.sprite = dialogue.LeftCharacterImage ?? leftCharacter.sprite;
-        rightCharacter.sprite = dialogue.RightCharacterImage ?? rightCharacter.sprite;
+        if(dialogue.LeftCharacterImage)
+        {
+            leftCharacter.enabled = true;
+            leftCharacter.sprite = dialogue.LeftCharacterImage;
+        }
+        else
+        {
+            leftCharacter.enabled = false;
+        }
+        if (dialogue.RightCharacterImage)
+        {
+            rightCharacter.enabled = true;
+            rightCharacter.sprite = dialogue.RightCharacterImage;
+        }
+        else
+        {
+            rightCharacter.enabled = false;
+        }
     }
 
     private void OptionTextLinkHandler_OnOptionPicked(int selectedIndex)
