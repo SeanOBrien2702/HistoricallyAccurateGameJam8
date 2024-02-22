@@ -17,6 +17,8 @@ public class DialogueController : MonoBehaviour
     [Header("Characters")]
     [SerializeField] TextMeshProUGUI leftNameText;
     [SerializeField] TextMeshProUGUI rightNameText;
+    [SerializeField] Image leftNameTag;
+    [SerializeField] Image rightNameTag;
     [SerializeField] Image leftCharacter;
     [SerializeField] Image rightCharacter;
     [Header("Options")]
@@ -108,8 +110,25 @@ public class DialogueController : MonoBehaviour
 
     private void UpdateUI(Dialogue dialogue)
     {
-        leftNameText.text = dialogue.LeftCharacterName;
-        rightNameText.text = dialogue.RightCharacterName;
+        Debug.Log(leftNameText.text + " " + rightNameText.text);
+        if (dialogue.LeftCharacterName != "")
+        {
+            leftNameText.text = dialogue.LeftCharacterName;
+            leftNameTag.enabled = true;
+        }
+        else
+        {
+            leftNameTag.enabled = false;
+        }
+        if (dialogue.RightCharacterName != "")
+        {
+            rightNameText.text = dialogue.RightCharacterName;
+            rightNameTag.enabled = true;
+        }
+        else
+        {
+            rightNameTag.enabled = false;
+        }
         leftCharacter.sprite = dialogue.LeftCharacterImage ?? leftCharacter.sprite;
         rightCharacter.sprite = dialogue.RightCharacterImage ?? rightCharacter.sprite;
     }
