@@ -32,6 +32,14 @@ public class HistoryController : MonoBehaviour
     {
         TextMeshProUGUI newText = Instantiate(textPrefab, content);
         newText.text = dialogue.DialogueText;
+        if(dialogue.LeftCharacterName != "")
+        {
+            newText.transform.GetChild(0).GetComponentInChildren<TextMeshProUGUI>().text = dialogue.LeftCharacterName;
+        }
+        if (dialogue.RightCharacterName != "")
+        {
+            newText.transform.GetChild(0).GetComponentInChildren<TextMeshProUGUI>().text = dialogue.RightCharacterName;
+        }
         historyList.Enqueue(newText);
         if(historyList.Count > maxHistoryCount)
         {

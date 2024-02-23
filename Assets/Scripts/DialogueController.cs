@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
@@ -14,6 +15,9 @@ public class DialogueController : MonoBehaviour
     [SerializeField] float textSpeed;
     [SerializeField] TextMeshProUGUI dialogueText;
     [SerializeField] Dialogue startingDialogue;
+    float fastTextSpeed = 0.0001f;
+    bool isReading = false;
+    bool isFastForward = false;
     [Header("Characters")]
     [SerializeField] TextMeshProUGUI leftNameText;
     [SerializeField] TextMeshProUGUI rightNameText;
@@ -26,8 +30,7 @@ public class DialogueController : MonoBehaviour
     string optionColourHexCode;
     [SerializeField] Color hoverColour;
     string hoverColourHexCode;
-
-    bool isReading = false;
+ 
     Dialogue currentDialogue;
     string currentText;
 
@@ -56,13 +59,19 @@ public class DialogueController : MonoBehaviour
     {      
         if (Input.GetMouseButtonDown(0) && 
             !historyController.IsShown &&
-            !IsOverUI() &&
-            !isReading)
+            !IsOverUI())
         {
-            if (currentDialogue.NextDialogue != null)
+
+            if (isReading)
+            {
+                isFastForward = true;
+            }
+
+            if (currentDialogue.NextDialogue != null && 
+                !isReading)
             {
                 StartCoroutine(PlayText(currentDialogue.NextDialogue));
-            }          
+            }     
         }
     }
 
@@ -95,7 +104,14 @@ public class DialogueController : MonoBehaviour
         foreach (char character in dialogue.DialogueText)
         {
             dialogueText.text += character;
-            yield return new WaitForSeconds(textSpeed);
+            if (isFastForward)
+            {
+                yield return new WaitForSeconds(fastTextSpeed);
+            }
+            else
+            {
+                yield return new WaitForSeconds(textSpeed);
+            }
         }
           
         dialogueText.text = dialogue.DialogueText;
@@ -106,6 +122,7 @@ public class DialogueController : MonoBehaviour
         }
         currentText = dialogueText.text;
         isReading = false;
+        isFastForward = false;
     }
 
     private void UpdateUI(Dialogue dialogue)
