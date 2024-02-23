@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Dialogue3A
   m_EditorClassIdentifier: 
   dialogueText: Well nothing happened
-  leftCharacterName: Tim
-  leftCharacterImage: {fileID: 21300000, guid: dde37da01e7067d47baa44912a396b19, type: 3}
-  rightCharacterName: Alice
-  rightCharacterImage: {fileID: 21300000, guid: 4b3f78838edca7f4b98174f608fd1413, type: 3}
+  leftCharacterName: David
+  leftCharacterImage: {fileID: 21300000, guid: f1c109fe9b5f540b6a4311b08c7305e9, type: 3}
+  rightCharacterName: Mary
+  rightCharacterImage: {fileID: 21300000, guid: 8f4148d6e62c8434f9783f3ffcc1885a, type: 3}
   dialogue: {fileID: 0}
   dialogueOptions:
-  - optionText: Tim leaves
+  - optionText: David leaves
     dialogue: {fileID: 11400000, guid: 77dc7f6efb9c9b34cb17aa46bf8ae08e, type: 2}
-  - optionText: Alice leaves
+  - optionText: Mary leaves
     dialogue: {fileID: 11400000, guid: f8505abfa31e8b74685ea0f577b71935, type: 2}
