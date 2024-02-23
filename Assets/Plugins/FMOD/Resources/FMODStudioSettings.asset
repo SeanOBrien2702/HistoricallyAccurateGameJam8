@@ -519,6 +519,11 @@ MonoBehaviour:
   - Master
   Banks:
   - 01-Happy-Uplifting
+  - 02-Pressure
+  - 03-EasyGoing
+  - 04-Commanding
+  - 05-ManipulationSchemeSerious
+  - SFX
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
