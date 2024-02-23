@@ -1,25 +1,30 @@
 using System;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.VFX;
 
 public class GameSettings : MonoBehaviour
 {
     public static event Action<float> OnReadSpeedChange = delegate { };
+    public static event Action<float> OnMusicVolumeChange = delegate { };
 
     [SerializeField] Slider readingSpeed;
-    //TODO: connect music and SFX volumes
     [SerializeField] Slider musicVolume;
+    //TODO: connect SFX volumes
     [SerializeField] Slider soundFXVolume;
 
     void Awake()
     {
         readingSpeed.onValueChanged.AddListener(delegate { UpdateReadingSpeed(); });
+        musicVolume.onValueChanged.AddListener(delegate { UpdateMusicVolume(); });
     }
 
     private void UpdateReadingSpeed()
     {
         OnReadSpeedChange?.Invoke(readingSpeed.value);
+    }
+
+    private void UpdateMusicVolume()
+    {
+        OnMusicVolumeChange?.Invoke(musicVolume.value);
     }
 }

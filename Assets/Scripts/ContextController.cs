@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class ContextController : MonoBehaviour
 {
+    public static event Action<Context> OnNewContext = delegate { };
     [SerializeField] Image background;
     [SerializeField] List<Context> contexts = new List<Context>();
 
@@ -25,6 +26,7 @@ public class ContextController : MonoBehaviour
         {           
             if(context.Dialogues.Contains(dialogue))
             {
+                OnNewContext?.Invoke(context);
                 background.sprite = context.BackgroundImage;
             }
         }

@@ -9,7 +9,11 @@ public class Context : ScriptableObject
     //TODO: add background music
     //[SerializeField] BackGroundMusic;
     [SerializeField] Dialogue[] dialogues;
+    [SerializeField] BackgroundMusicType backgroundMusic;
+    [SerializeField] int musicIntensity = -1;
 
-    public Sprite BackgroundImage { get => backgroundImage; set => backgroundImage = value; }
-    public Dialogue[] Dialogues { get => dialogues; set => dialogues = value; }
+    public Sprite BackgroundImage { get => backgroundImage; }
+    public Dialogue[] Dialogues { get => dialogues; }
+    public BackgroundMusicType BackgroundMusic { get => backgroundMusic; }
+    public int MusicIntensity { get => musicIntensity; }
 }
