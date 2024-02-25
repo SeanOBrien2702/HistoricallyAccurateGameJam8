@@ -808,7 +808,7 @@ GameObject:
   - component: {fileID: 447090292}
   - component: {fileID: 447090291}
   m_Layer: 0
-  m_Name: Text (TMP) (3)
+  m_Name: Ben
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -831,7 +831,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -100, y: 100}
+  m_AnchoredPosition: {x: -100, y: 200}
   m_SizeDelta: {x: 600, y: 50}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &447090291
@@ -1077,7 +1077,7 @@ GameObject:
   - component: {fileID: 494435477}
   - component: {fileID: 494435476}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: Chris
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1100,7 +1100,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -100, y: 200}
+  m_AnchoredPosition: {x: -100, y: -200}
   m_SizeDelta: {x: 600, y: 50}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &494435476
@@ -1123,7 +1123,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Chris CB
+  m_text: 'Chris Torone
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b02bc095431db5d49b791bd6afb5076c, type: 2}
   m_sharedMaterial: {fileID: -5856618173396236697, guid: b02bc095431db5d49b791bd6afb5076c, type: 2}
@@ -1572,7 +1574,7 @@ GameObject:
   - component: {fileID: 669981608}
   - component: {fileID: 669981607}
   m_Layer: 0
-  m_Name: Text (TMP) (4)
+  m_Name: Sophie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1595,7 +1597,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -100, y: -100}
+  m_AnchoredPosition: {x: -100, y: 0}
   m_SizeDelta: {x: 600, y: 50}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &669981607
@@ -2240,7 +2242,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1193689780
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2317,7 +2319,7 @@ GameObject:
   - component: {fileID: 1275794993}
   - component: {fileID: 1275794992}
   m_Layer: 0
-  m_Name: Text (TMP) (2)
+  m_Name: Lee
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2340,7 +2342,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -100, y: 0}
+  m_AnchoredPosition: {x: -100, y: 100}
   m_SizeDelta: {x: 600, y: 50}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1275794992
@@ -2631,7 +2633,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Historically Accurate Game Jam 8
+  m_text: Deadly Whispers
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b02bc095431db5d49b791bd6afb5076c, type: 2}
   m_sharedMaterial: {fileID: -5856618173396236697, guid: b02bc095431db5d49b791bd6afb5076c, type: 2}
@@ -2658,8 +2660,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 90
+  m_fontSizeBase: 90
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2987,7 +2989,7 @@ GameObject:
   - component: {fileID: 1848214239}
   - component: {fileID: 1848214238}
   m_Layer: 0
-  m_Name: Text (TMP) (1)
+  m_Name: Sean
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3010,7 +3012,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -100, y: -200}
+  m_AnchoredPosition: {x: -100, y: -100}
   m_SizeDelta: {x: 600, y: 50}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1848214238
