@@ -23,3 +23,10 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 77dc7f6efb9c9b34cb17aa46bf8ae08e, type: 2}
   - optionText: Mary leaves
     dialogue: {fileID: 11400000, guid: f8505abfa31e8b74685ea0f577b71935, type: 2}
+  soundEffect:
+    Guid:
+      Data1: -1036310317
+      Data2: 1220909180
+      Data3: -429331549
+      Data4: 1734208323
+    Path: event:/SFX/Stabbing
