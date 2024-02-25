@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{144c2363-651a-42ab-aee6-2e21ff1759dc}">
+	<object class="AudioFile" id="{272fd59b-3f6a-4c98-ba19-cc5ee0bc2956}">
 		<property name="assetPath">
-			<value>Gentle_crowd_Murmur.wav</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>SFX/Henry_9.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="length">
-			<value>43.600000000000001</value>
+			<value>0.30709750566893423</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bca6cdb4-13eb-4a9e-b97e-4f06085f87a1}</destination>
