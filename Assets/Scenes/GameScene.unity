@@ -1380,6 +1380,7 @@ GameObject:
   - component: {fileID: 972609908}
   - component: {fileID: 972609910}
   - component: {fileID: 972609909}
+  - component: {fileID: 972609911}
   m_Layer: 0
   m_Name: DialogueBackground
   m_TagString: Untagged
@@ -1451,6 +1452,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 972609907}
   m_CullTransparentMesh: 1
+--- !u!114 &972609911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972609907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c588910fecafb374284a87414898e99b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  historyButton: {fileID: 308197337}
 --- !u!1 &984825855
 GameObject:
   m_ObjectHideFlags: 0
@@ -1483,7 +1497,7 @@ MonoBehaviour:
   historyController: {fileID: 1673435551}
   textSpeed: 0.025
   dialogueText: {fileID: 384063359}
-  startingDialogue: {fileID: 11400000, guid: 149fb6999eb46b64db9bfdc4685c532e, type: 2}
+  startingDialogue: {fileID: 11400000, guid: 55c8650a254e3334caa82efacb7ad61a, type: 2}
   leftNameText: {fileID: 1489741208}
   rightNameText: {fileID: 61187542}
   leftNameTag: {fileID: 1757017733}
