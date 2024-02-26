@@ -15,9 +15,16 @@ MonoBehaviour:
   dialogueText: 'This is a test. How does it look?
 
 '
-  leftCharacterName: Tim
-  leftCharacterImage: {fileID: 21300000, guid: dde37da01e7067d47baa44912a396b19, type: 3}
-  rightCharacterName: Alice
-  rightCharacterImage: {fileID: 21300000, guid: 4b3f78838edca7f4b98174f608fd1413, type: 3}
+  leftCharacterName: 
+  leftCharacterImage: {fileID: 21300000, guid: f1c109fe9b5f540b6a4311b08c7305e9, type: 3}
+  rightCharacterName: 
+  rightCharacterImage: {fileID: 21300000, guid: 8f4148d6e62c8434f9783f3ffcc1885a, type: 3}
   dialogue: {fileID: 11400000, guid: 4337452bc5c618a43b47eca3670b4715, type: 2}
   dialogueOptions: []
+  soundEffect:
+    Guid:
+      Data1: -1036310317
+      Data2: 1220909180
+      Data3: -429331549
+      Data4: 1734208323
+    Path: event:/SFX/Stabbing

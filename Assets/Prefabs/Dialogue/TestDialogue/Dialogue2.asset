@@ -12,14 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue2
   m_EditorClassIdentifier: 
-  dialogueText: Dialogue choices!!!
-  leftCharacterName: Tim
-  leftCharacterImage: {fileID: 21300000, guid: dde37da01e7067d47baa44912a396b19, type: 3}
-  rightCharacterName: Alice
-  rightCharacterImage: {fileID: 21300000, guid: 4b3f78838edca7f4b98174f608fd1413, type: 3}
+  dialogueText: Dialogue choices!!!!!!!!!!!!!!!!
+  leftCharacterName: 
+  leftCharacterImage: {fileID: 21300000, guid: f1c109fe9b5f540b6a4311b08c7305e9, type: 3}
+  rightCharacterName: Mary
+  rightCharacterImage: {fileID: 21300000, guid: 8f4148d6e62c8434f9783f3ffcc1885a, type: 3}
   dialogue: {fileID: 0}
   dialogueOptions:
   - optionText: Do nothing
     dialogue: {fileID: 11400000, guid: 985a990709a8a1a4ea9949ffc1f56af8, type: 2}
   - optionText: Swap positions
     dialogue: {fileID: 11400000, guid: dd22c5d8986d1bf488cda525292dc927, type: 2}
+  soundEffect:
+    Guid:
+      Data1: -1796227390
+      Data2: 1130610866
+      Data3: -1138858053
+      Data4: -352608497
+    Path: event:/SFX/Footsteps

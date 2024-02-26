@@ -1,18 +1,28 @@
+using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Text;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class DialogueController : MonoBehaviour
 {
+    public static event System.Action<Dialogue> OnNewDialogue = delegate { };
+    [SerializeField] HistoryController historyController;
     [Header("Dialogue")]
     [SerializeField] float textSpeed;
     [SerializeField] TextMeshProUGUI dialogueText;
     [SerializeField] Dialogue startingDialogue;
+    float fastTextSpeed = 0.0001f;
+    bool isReading = false;
+    bool isFastForward = false;
     [Header("Characters")]
     [SerializeField] TextMeshProUGUI leftNameText;
     [SerializeField] TextMeshProUGUI rightNameText;
+    [SerializeField] Image leftNameTag;
+    [SerializeField] Image rightNameTag;
     [SerializeField] Image leftCharacter;
     [SerializeField] Image rightCharacter;
     [Header("Options")]
@@ -20,8 +30,7 @@ public class DialogueController : MonoBehaviour
     string optionColourHexCode;
     [SerializeField] Color hoverColour;
     string hoverColourHexCode;
-
-    bool isReading = false;
+ 
     Dialogue currentDialogue;
     string currentText;
 
@@ -35,6 +44,7 @@ public class DialogueController : MonoBehaviour
         OptionTextLinkHandler.OnOptionPicked += OptionTextLinkHandler_OnOptionPicked;
         OptionTextLinkHandler.OnHoverOnOption += OptionTextLinkHandler_OnHoverOnOption;
         OptionTextLinkHandler.OnHoverOffOption += OptionTextLinkHandler_OnHoverOffOption;
+        GameSettings.OnReadSpeedChange += GameSettings_OnReadSpeedChange;
     }
 
     private void OnDestroy()
@@ -42,17 +52,45 @@ public class DialogueController : MonoBehaviour
         OptionTextLinkHandler.OnOptionPicked -= OptionTextLinkHandler_OnOptionPicked;
         OptionTextLinkHandler.OnHoverOnOption -= OptionTextLinkHandler_OnHoverOnOption;
         OptionTextLinkHandler.OnHoverOffOption -= OptionTextLinkHandler_OnHoverOffOption;
+        GameSettings.OnReadSpeedChange -= GameSettings_OnReadSpeedChange;
     }
 
     void Update()
-    {
-        if (Input.GetMouseButtonDown(0) && !isReading)
+    {      
+        if (Input.GetMouseButtonDown(0) && 
+            !historyController.IsShown &&
+            !IsOverUI())
         {
-            if(currentDialogue.NextDialogue != null)
+
+            if (isReading)
+            {
+                isFastForward = true;
+            }
+
+            if (currentDialogue.NextDialogue != null && 
+                !isReading)
             {
                 StartCoroutine(PlayText(currentDialogue.NextDialogue));
-            }          
+            }     
         }
+    }
+
+    public bool IsOverUI()
+    {
+        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
+        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+
+        foreach (RaycastResult result in results)
+        {
+            if (LayerMask.LayerToName(result.gameObject.layer) == K.UILayer)
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     IEnumerator PlayText(Dialogue dialogue)
@@ -60,12 +98,25 @@ public class DialogueController : MonoBehaviour
         isReading = true;
         dialogueText.text = "";
         currentDialogue = dialogue;
+        OnNewDialogue?.Invoke(dialogue);
         UpdateUI(dialogue);
+        AudioController.Instance.EndSoundEffect();
+        if (!dialogue.SoundEffect.IsNull)
+        {
+            AudioController.Instance.PlaySoundEffect(dialogue.SoundEffect);
+        }
 
         foreach (char character in dialogue.DialogueText)
         {
             dialogueText.text += character;
-            yield return new WaitForSeconds(textSpeed);
+            if (isFastForward)
+            {
+                yield return new WaitForSeconds(fastTextSpeed);
+            }
+            else
+            {
+                yield return new WaitForSeconds(textSpeed);
+            }
         }
           
         dialogueText.text = dialogue.DialogueText;
@@ -76,14 +127,50 @@ public class DialogueController : MonoBehaviour
         }
         currentText = dialogueText.text;
         isReading = false;
+        isFastForward = false;
     }
 
     private void UpdateUI(Dialogue dialogue)
     {
-        leftNameText.text = dialogue.LeftCharacterName;
-        rightNameText.text = dialogue.RightCharacterName;
-        leftCharacter.sprite = dialogue.LeftCharacterImage ?? leftCharacter.sprite;
-        rightCharacter.sprite = dialogue.RightCharacterImage ?? rightCharacter.sprite;
+        Debug.Log(leftNameText.text + " " + rightNameText.text);
+        if (dialogue.LeftCharacterName != "")
+        {
+            leftNameText.text = dialogue.LeftCharacterName;
+            leftNameTag.enabled = true;
+        }
+        else
+        {
+            leftNameText.text = "";
+            leftNameTag.enabled = false;
+        }
+        if (dialogue.RightCharacterName != "")
+        {
+            rightNameText.text = dialogue.RightCharacterName;
+            rightNameTag.enabled = true;
+        }
+        else
+        {
+            rightNameText.text = "";
+            rightNameTag.enabled = false;
+        }
+        if(dialogue.LeftCharacterImage)
+        {
+            leftCharacter.enabled = true;
+            leftCharacter.sprite = dialogue.LeftCharacterImage;
+        }
+        else
+        {
+            leftCharacter.enabled = false;
+        }
+        if (dialogue.RightCharacterImage)
+        {
+            rightCharacter.enabled = true;
+            rightCharacter.sprite = dialogue.RightCharacterImage;
+        }
+        else
+        {
+            rightCharacter.enabled = false;
+        }
     }
 
     private void OptionTextLinkHandler_OnOptionPicked(int selectedIndex)
@@ -117,5 +204,10 @@ public class DialogueController : MonoBehaviour
             return;
         }
         dialogueText.text = currentText;
+    }
+
+    private void GameSettings_OnReadSpeedChange(float readingSpeed)
+    {
+        textSpeed = readingSpeed;
     }
 }

@@ -13,13 +13,20 @@ MonoBehaviour:
   m_Name: Dialogue3B
   m_EditorClassIdentifier: 
   dialogueText: We switched sides!
-  leftCharacterName: Alice
-  leftCharacterImage: {fileID: 21300000, guid: 4b3f78838edca7f4b98174f608fd1413, type: 3}
-  rightCharacterName: Tim
-  rightCharacterImage: {fileID: 21300000, guid: dde37da01e7067d47baa44912a396b19, type: 3}
+  leftCharacterName: 
+  leftCharacterImage: {fileID: 21300000, guid: 8f4148d6e62c8434f9783f3ffcc1885a, type: 3}
+  rightCharacterName: David
+  rightCharacterImage: {fileID: 21300000, guid: f1c109fe9b5f540b6a4311b08c7305e9, type: 3}
   dialogue: {fileID: 0}
   dialogueOptions:
   - optionText: Swap back
     dialogue: {fileID: 11400000, guid: 59e4efd14f81b6a4d80f5cf509ebe081, type: 2}
   - optionText: Stay here
     dialogue: {fileID: 11400000, guid: 8f6c2b8f875486e4b8d6b4914886bcce, type: 2}
+  soundEffect:
+    Guid:
+      Data1: -1036310317
+      Data2: 1220909180
+      Data3: -429331549
+      Data4: 1734208323
+    Path: event:/SFX/Stabbing
