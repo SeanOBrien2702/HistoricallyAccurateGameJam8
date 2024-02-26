@@ -10,16 +10,13 @@ public class HistoryController : MonoBehaviour
     [SerializeField] TextMeshProUGUI textPrefab;
     [SerializeField] int maxHistoryCount;
     bool isShown = false;
-    CanvasGroup canvas;
     Image image;
 
     public bool IsShown { get => isShown; set => isShown = value; }
 
     void Start()
     {
-        canvas = GetComponent<CanvasGroup>();
         image = GetComponent<Image>();
-        canvas.alpha = isShown ? 1 : 0;
         DialogueController.OnNewDialogue += DialogueController_OnNewDialogue;
     }
 
@@ -31,14 +28,20 @@ public class HistoryController : MonoBehaviour
     private void DialogueController_OnNewDialogue(Dialogue dialogue)
     {
         TextMeshProUGUI newText = Instantiate(textPrefab, content);
-        newText.text = dialogue.DialogueText;
+        
         if(dialogue.LeftCharacterName != "")
         {
-            newText.transform.GetChild(0).GetComponentInChildren<TextMeshProUGUI>().text = dialogue.LeftCharacterName;
+            newText.text = dialogue.LeftCharacterName + ": ";
         }
         if (dialogue.RightCharacterName != "")
         {
-            newText.transform.GetChild(0).GetComponentInChildren<TextMeshProUGUI>().text = dialogue.RightCharacterName;
+            newText.text = dialogue.RightCharacterName + ": "; ;
+        }
+        newText.text += dialogue.DialogueText;
+        if(dialogue.LeftCharacterName == "" &&
+            dialogue.RightCharacterName == "")
+        {
+            newText.alignment = TextAlignmentOptions.Center;
         }
         historyList.Enqueue(newText);
         if(historyList.Count > maxHistoryCount)
@@ -51,6 +54,5 @@ public class HistoryController : MonoBehaviour
     {
         isShown = !isShown;
         image.raycastTarget = isShown;
-        canvas.alpha = isShown ? 1 : 0;
     }
 }
