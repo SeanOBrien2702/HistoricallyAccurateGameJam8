@@ -23,3 +23,10 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 59e4efd14f81b6a4d80f5cf509ebe081, type: 2}
   - optionText: Stay here
     dialogue: {fileID: 11400000, guid: 8f6c2b8f875486e4b8d6b4914886bcce, type: 2}
+  soundEffect:
+    Guid:
+      Data1: -1036310317
+      Data2: 1220909180
+      Data3: -429331549
+      Data4: 1734208323
+    Path: event:/SFX/Stabbing
