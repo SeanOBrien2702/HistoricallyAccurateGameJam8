@@ -2742,42 +2742,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characters:
   - Name: David Rizzio
-    Description: Italian descent, dark hair and dark eyes. Mediterranean features.
-      Slightly darker complexion - this would have set him apart from the Scottish
-      court that he was a part of. Witty, intellectual, musically talented. More
-      flamboyant with his style, used more expensive fabrics. Overall, his appearance
-      would have been quite memorable and distinctive compared to others.
+    Description: David Rizzio, an Italian courtier, rose to prominence as the private
+      secretary and confidant of Mary, Queen of Scots, in the 16th century. Known
+      for his intelligence and charm, Rizzio wielded considerable influence over
+      the queen, much to the dismay of the Scottish nobility.
     Portrait: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   - Name: Mary Stuart
-    Description: Charm, great beauty. Fair skin, red-gold hair, dark eyes - calculating,
-      thinking, assessing. Taller height (180 cm). Slender, fashionable, elaborate
-      jewlery. This made her elaborately "royal"
+    Description: Mary, Queen of Scots, reigned over Scotland starting in 1542 and
+      was known for her beauty, intelligence, and turbulent reign. Her marriage to
+      Lord Darnley marked the beginning of a turbulent time for Scotland, as deceipt
+      and betrayal soon followed everyone in Scottish court soon after.
     Portrait: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   - Name: Henry Stuart
-    Description: Tall as well, handsome young man, light blue eyes, light brown hair,
-      also a fair complexion (as the scottish seem to be). He had charm and charisma,
-      as well as a more athletic build
+    Description: Henry Stuart, Lord Darnley, was wed to Mary, Queen of Scots, in
+      1565. Descended from the English and Scottish royal families, Darnley's marriage
+      to Mary was initially seen as a union of great political promise. Darnley's
+      life was marked by ambition and political intrigue.
     Portrait: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   - Name: Patrick Ruthven
-    Description: 'More firey presence in conversation. Dressed royally, not over
-      the top. light brown hair, light blue eyes, powerful but hidden frame. He was
-      a person who could command the room, yet chose not to do so unless provoked.
-      Extremely witty, and could out maneuver David if he decided to do so. An opponent
-      of Mary, and not necessarily an ally of Henry. Major conspirator to eliminate
-      David. This is bad guy #1. He would''ve been the whispers into Henry''s ears. '
+    Description: Patrick Ruthven, 3rd Lord Ruthven, was a prominent Scottish nobleman
+      known for his role in the political turmoil of 16th-century Scotland. Ruthven's
+      actions during this tumultuous period in Scottish history had a lasting impact
+      on the country's political landscape.
     Portrait: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   - Name: George Douglas
-    Description: fair complexion, light blue eyes, light brown hair (similar to Henry).
-      Very close friends with Henry at the time and a close confidant. Similar athletic
-      build, as well as energetic demeanor. Also handsome and a well sought member
-      of the court and well liked by the ladies.
+    Description: George Douglas was a Scottish nobleman at the time of 1565. George's
+      involvement in political plots reflected the complex political dynamics of
+      the time, including tensions within the Scottish court and rivalry among the
+      nobility. George's actions during this turbulent period in Scottish history
+      underscored the intrigue and violence that characterized the era.
     Portrait: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   - Name: William Maitland
-    Description: tall and well-built man with a commanding presence. Prominent nose,
-      dark hair, and piercing eyes (not dark like David and Mary). He also would've
-      had a smaller beard. He was smart and held his ground on intellectual authority.
-      Had prominent fashion and held to trends, but did not overdress. He had a sharp
-      wit, which made him a formidable foe in debates.
+    Description: William Maitland of Lethington was a prominent Scottish statesman
+      and diplomat who played a key role in the political affairs of 16th century
+      Scotland. Serving as Secretary of State to Mary, Queen of Scots, Maitland was
+      known for his intelligence, wit, and diplomatic skill. His legacy lives on
+      as a testament to his contributions to the shaping of Scotland's history during
+      a tumultuous period.
     Portrait: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   nameText: {fileID: 1366360431}
   descriptionText: {fileID: 611018936}
