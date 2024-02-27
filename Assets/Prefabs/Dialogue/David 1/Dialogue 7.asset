@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
+  m_Name: Dialogue 7
+  m_EditorClassIdentifier: 
+  dialogueText: "My wife! And David! I\u2019m glad I found both of you. David, thank
+    you for the week of festivities. They have gone beyond my expectations for a
+    royal party."
+  leftCharacterName: David
+  leftCharacterImage: {fileID: 0}
+  rightCharacterName: Henry
+  rightCharacterImage: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 7a541383d468bac40ab43b81d00d3881, type: 2}
+  dialogueOptions: []

@@ -6,16 +6,17 @@ public class GameSettings : MonoBehaviour
 {
     public static event Action<float> OnReadSpeedChange = delegate { };
     public static event Action<float> OnMusicVolumeChange = delegate { };
+    public static event Action<float> OnSoundFXVolumeChange = delegate { };
 
     [SerializeField] Slider readingSpeed;
     [SerializeField] Slider musicVolume;
-    //TODO: connect SFX volumes
     [SerializeField] Slider soundFXVolume;
 
     void Awake()
     {
         readingSpeed.onValueChanged.AddListener(delegate { UpdateReadingSpeed(); });
         musicVolume.onValueChanged.AddListener(delegate { UpdateMusicVolume(); });
+        soundFXVolume.onValueChanged.AddListener(delegate { UpdateSoundFXVolume(); });
     }
 
     private void UpdateReadingSpeed()
@@ -26,5 +27,10 @@ public class GameSettings : MonoBehaviour
     private void UpdateMusicVolume()
     {
         OnMusicVolumeChange?.Invoke(musicVolume.value);
+    }
+
+    private void UpdateSoundFXVolume()
+    {
+        OnSoundFXVolumeChange?.Invoke(soundFXVolume.value);
     }
 }

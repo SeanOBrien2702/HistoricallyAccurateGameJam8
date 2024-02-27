@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
+  m_Name: Dialogue 15
+  m_EditorClassIdentifier: 
+  dialogueText: But Mary; Mary saw him. She picked him immediately from the Scottish
+    musicians he squeezed his way next to. Not just for his tone, not just for his
+    face, but she saw his mind. His wit. It was beyond what she knew, and more practiced
+    than anyone around her.
+  leftCharacterName: David
+  leftCharacterImage: {fileID: 0}
+  rightCharacterName: 
+  rightCharacterImage: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: c344273f89776104c80ed6414e613e8e, type: 2}
+  dialogueOptions: []

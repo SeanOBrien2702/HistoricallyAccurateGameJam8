@@ -100,6 +100,11 @@ public class DialogueController : MonoBehaviour
         currentDialogue = dialogue;
         OnNewDialogue?.Invoke(dialogue);
         UpdateUI(dialogue);
+        AudioController.Instance.EndSoundEffect();
+        if (!dialogue.SoundEffect.IsNull)
+        {
+            AudioController.Instance.PlaySoundEffect(dialogue.SoundEffect);
+        }
 
         foreach (char character in dialogue.DialogueText)
         {
