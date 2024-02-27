@@ -10,6 +10,7 @@ using UnityEngine.UI;
 public class DialogueController : MonoBehaviour
 {
     public static event System.Action<Dialogue> OnNewDialogue = delegate { };
+    public static event System.Action<Dialogue> OnDialogueEnd = delegate { };
     [SerializeField] HistoryController historyController;
     [Header("Dialogue")]
     [SerializeField] float textSpeed;
@@ -100,11 +101,7 @@ public class DialogueController : MonoBehaviour
         currentDialogue = dialogue;
         OnNewDialogue?.Invoke(dialogue);
         UpdateUI(dialogue);
-        AudioController.Instance.EndSoundEffect();
-        if (!dialogue.SoundEffect.IsNull)
-        {
-            AudioController.Instance.PlaySoundEffect(dialogue.SoundEffect);
-        }
+
 
         foreach (char character in dialogue.DialogueText)
         {
@@ -125,6 +122,7 @@ public class DialogueController : MonoBehaviour
         {
             dialogueText.text += '\n' + "  <color=#ff0000><i><link=\"" + optionsIndex +"\">"+ option.OptionText+ "</color></i></link>";
         }
+        OnDialogueEnd?.Invoke(dialogue);
         currentText = dialogueText.text;
         isReading = false;
         isFastForward = false;
