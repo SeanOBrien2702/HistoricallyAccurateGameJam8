@@ -5,6 +5,7 @@ using UnityEngine;
 public class MainMenuUIController : MonoBehaviour
 {
     [SerializeField] GameObject creditsPanel;
+    [SerializeField] GameObject characterPanel;
 
     public void StartGame()
     {
@@ -19,5 +20,10 @@ public class MainMenuUIController : MonoBehaviour
     public void ToggleCredits()
     {
         creditsPanel.SetActive(!creditsPanel.activeSelf);
+    }
+
+    public void ToggleCharacter()
+    {
+        characterPanel.SetActive(!characterPanel.activeSelf);
     }
 }
