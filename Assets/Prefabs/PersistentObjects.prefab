@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3754227550474161342}
-  - component: {fileID: 989225842266182562}
   - component: {fileID: 3518910066861265440}
   - component: {fileID: 4339699642020412187}
   m_Layer: 0
@@ -34,37 +33,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2026199655066298405}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &989225842266182562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2993920400025031414}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 1551389682
-      Data2: 1234249673
-      Data3: 529938051
-      Data4: 2043067818
-    Path: event:/01-Happy-uplifting
-  Event: 
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  AllowNonRigidbodyDoppler: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!114 &3518910066861265440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,6 +79,48 @@ MonoBehaviour:
       Data3: 1011943613
       Data4: 956698799
     Path: event:/05-Scheme
+  david:
+    Guid:
+      Data1: -909083432
+      Data2: 1142121239
+      Data3: -340793694
+      Data4: 907811124
+    Path: event:/SFX/Dialogue/Henry
+  george:
+    Guid:
+      Data1: -909083432
+      Data2: 1142121239
+      Data3: -340793694
+      Data4: 907811124
+    Path: event:/SFX/Dialogue/Henry
+  henry:
+    Guid:
+      Data1: -909083432
+      Data2: 1142121239
+      Data3: -340793694
+      Data4: 907811124
+    Path: event:/SFX/Dialogue/Henry
+  patrick:
+    Guid:
+      Data1: -909083432
+      Data2: 1142121239
+      Data3: -340793694
+      Data4: 907811124
+    Path: event:/SFX/Dialogue/Henry
+  mary:
+    Guid:
+      Data1: -909083432
+      Data2: 1142121239
+      Data3: -340793694
+      Data4: 907811124
+    Path: event:/SFX/Dialogue/Henry
+  william:
+    Guid:
+      Data1: -909083432
+      Data2: 1142121239
+      Data3: -340793694
+      Data4: 907811124
+    Path: event:/SFX/Dialogue/Henry
 --- !u!1 &3974828403812724557
 GameObject:
   m_ObjectHideFlags: 0
