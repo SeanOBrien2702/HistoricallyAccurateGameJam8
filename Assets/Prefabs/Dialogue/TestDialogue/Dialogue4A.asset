@@ -25,3 +25,10 @@ MonoBehaviour:
     dialogue: {fileID: 11400000, guid: 985a990709a8a1a4ea9949ffc1f56af8, type: 2}
   - optionText: 
     dialogue: {fileID: 11400000, guid: dd22c5d8986d1bf488cda525292dc927, type: 2}
+  hoverSound:
+    Guid:
+      Data1: -1036310317
+      Data2: 1220909180
+      Data3: -429331549
+      Data4: 1734208323
+    Path: event:/SFX/Stabbing
