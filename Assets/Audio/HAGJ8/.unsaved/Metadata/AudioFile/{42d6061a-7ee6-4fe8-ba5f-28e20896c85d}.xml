@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{42d6061a-7ee6-4fe8-ba5f-28e20896c85d}">
+		<property name="assetPath">
+			<value>SFX/William_8.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.62151927437641719</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bca6cdb4-13eb-4a9e-b97e-4f06085f87a1}</destination>
+		</relationship>
+	</object>
+</objects>
