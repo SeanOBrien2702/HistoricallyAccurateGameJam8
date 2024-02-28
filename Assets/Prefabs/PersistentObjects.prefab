@@ -792,6 +792,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5153645666554867331, guid: b3c021451ceb86f42a4b15e42783aab0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8175572406713796504}
+    - targetCorrespondingSourceObject: {fileID: 5153645666554867331, guid: b3c021451ceb86f42a4b15e42783aab0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6778508219840832912}
   m_SourcePrefab: {fileID: 100100000, guid: b3c021451ceb86f42a4b15e42783aab0, type: 3}
 --- !u!1 &679468295005246781 stripped
 GameObject:
@@ -818,6 +821,25 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &6778508219840832912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679468295005246781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98ecafac8463984fb49d615fa274bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonClick:
+    Guid:
+      Data1: 416904281
+      Data2: 1111217907
+      Data3: -1853746006
+      Data4: 601714960
+    Path: event:/SFX/UI/UI_Menu_close
 --- !u!224 &1116491314657095051 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4725977308708967989, guid: b3c021451ceb86f42a4b15e42783aab0, type: 3}

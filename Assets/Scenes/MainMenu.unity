@@ -365,10 +365,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9146999161702296978, guid: 0b44a1041adbe624a8cc7d7c37c9eec5, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 150142232363121577, guid: 0b44a1041adbe624a8cc7d7c37c9eec5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 878692771}
   m_SourcePrefab: {fileID: 100100000, guid: 0b44a1041adbe624a8cc7d7c37c9eec5, type: 3}
 --- !u!224 &157508300 stripped
 RectTransform:
@@ -1441,6 +1445,7 @@ GameObject:
   - component: {fileID: 741363718}
   - component: {fileID: 741363717}
   - component: {fileID: 741363716}
+  - component: {fileID: 741363719}
   m_Layer: 0
   m_Name: PreviousButton
   m_TagString: Untagged
@@ -1561,6 +1566,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 741363714}
   m_CullTransparentMesh: 1
+--- !u!114 &741363719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741363714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98ecafac8463984fb49d615fa274bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonClick:
+    Guid:
+      Data1: -599758452
+      Data2: 1135915295
+      Data3: -1487277662
+      Data4: -1471271420
+    Path: event:/SFX/UI/UI_Menu_change
 --- !u!1 &777913012
 GameObject:
   m_ObjectHideFlags: 0
@@ -1723,6 +1747,7 @@ GameObject:
   - component: {fileID: 837931466}
   - component: {fileID: 837931465}
   - component: {fileID: 837931464}
+  - component: {fileID: 837931467}
   m_Layer: 0
   m_Name: ReturnButton
   m_TagString: Untagged
@@ -1843,6 +1868,49 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 837931462}
   m_CullTransparentMesh: 1
+--- !u!114 &837931467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837931462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98ecafac8463984fb49d615fa274bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonClick:
+    Guid:
+      Data1: 416904281
+      Data2: 1111217907
+      Data3: -1853746006
+      Data4: 601714960
+    Path: event:/SFX/UI/UI_Menu_close
+--- !u!1 &878692766 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 150142232363121577, guid: 0b44a1041adbe624a8cc7d7c37c9eec5, type: 3}
+  m_PrefabInstance: {fileID: 157508299}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &878692771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878692766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98ecafac8463984fb49d615fa274bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonClick:
+    Guid:
+      Data1: 1325560432
+      Data2: 1175703206
+      Data3: -371182463
+      Data4: 865318581
+    Path: event:/SFX/UI/UI_FW
 --- !u!1 &970432316
 GameObject:
   m_ObjectHideFlags: 0
@@ -2144,10 +2212,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9146999161702296978, guid: 0b44a1041adbe624a8cc7d7c37c9eec5, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 150142232363121577, guid: 0b44a1041adbe624a8cc7d7c37c9eec5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1451035993}
   m_SourcePrefab: {fileID: 100100000, guid: 0b44a1041adbe624a8cc7d7c37c9eec5, type: 3}
 --- !u!224 &1133546657 stripped
 RectTransform:
@@ -3043,16 +3115,44 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9146999161702296978, guid: 0b44a1041adbe624a8cc7d7c37c9eec5, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 150142232363121577, guid: 0b44a1041adbe624a8cc7d7c37c9eec5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1997220950}
   m_SourcePrefab: {fileID: 100100000, guid: 0b44a1041adbe624a8cc7d7c37c9eec5, type: 3}
 --- !u!224 &1435043966 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6474311987652715735, guid: 0b44a1041adbe624a8cc7d7c37c9eec5, type: 3}
   m_PrefabInstance: {fileID: 1435043965}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1451035988 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 150142232363121577, guid: 0b44a1041adbe624a8cc7d7c37c9eec5, type: 3}
+  m_PrefabInstance: {fileID: 1133546656}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1451035993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451035988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98ecafac8463984fb49d615fa274bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonClick:
+    Guid:
+      Data1: 1325560432
+      Data2: 1175703206
+      Data3: -371182463
+      Data4: 865318581
+    Path: event:/SFX/UI/UI_FW
 --- !u!1 &1467120279
 GameObject:
   m_ObjectHideFlags: 0
@@ -3065,6 +3165,7 @@ GameObject:
   - component: {fileID: 1467120283}
   - component: {fileID: 1467120282}
   - component: {fileID: 1467120281}
+  - component: {fileID: 1467120284}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -3185,6 +3286,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1467120279}
   m_CullTransparentMesh: 1
+--- !u!114 &1467120284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467120279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98ecafac8463984fb49d615fa274bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonClick:
+    Guid:
+      Data1: 416904281
+      Data2: 1111217907
+      Data3: -1853746006
+      Data4: 601714960
+    Path: event:/SFX/UI/UI_Menu_close
+--- !u!1 &1523558556 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 150142232363121577, guid: 0b44a1041adbe624a8cc7d7c37c9eec5, type: 3}
+  m_PrefabInstance: {fileID: 9139986156076926410}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1661827853
 GameObject:
   m_ObjectHideFlags: 0
@@ -3534,6 +3659,49 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6474311987652715735, guid: 0b44a1041adbe624a8cc7d7c37c9eec5, type: 3}
   m_PrefabInstance: {fileID: 9139986156076926410}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1899430557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523558556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98ecafac8463984fb49d615fa274bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonClick:
+    Guid:
+      Data1: 1325560432
+      Data2: 1175703206
+      Data3: -371182463
+      Data4: 865318581
+    Path: event:/SFX/UI/UI_FW
+--- !u!1 &1997220945 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 150142232363121577, guid: 0b44a1041adbe624a8cc7d7c37c9eec5, type: 3}
+  m_PrefabInstance: {fileID: 1435043965}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1997220950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997220945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98ecafac8463984fb49d615fa274bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonClick:
+    Guid:
+      Data1: 1325560432
+      Data2: 1175703206
+      Data3: -371182463
+      Data4: 865318581
+    Path: event:/SFX/UI/UI_FW
 --- !u!1 &2146433794
 GameObject:
   m_ObjectHideFlags: 0
@@ -3546,6 +3714,7 @@ GameObject:
   - component: {fileID: 2146433798}
   - component: {fileID: 2146433797}
   - component: {fileID: 2146433796}
+  - component: {fileID: 2146433799}
   m_Layer: 0
   m_Name: NextButton
   m_TagString: Untagged
@@ -3666,6 +3835,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146433794}
   m_CullTransparentMesh: 1
+--- !u!114 &2146433799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146433794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98ecafac8463984fb49d615fa274bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonClick:
+    Guid:
+      Data1: -599758452
+      Data2: 1135915295
+      Data3: -1487277662
+      Data4: -1471271420
+    Path: event:/SFX/UI/UI_Menu_change
 --- !u!1001 &8330385340005429110
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3819,10 +4007,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9146999161702296978, guid: 0b44a1041adbe624a8cc7d7c37c9eec5, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 150142232363121577, guid: 0b44a1041adbe624a8cc7d7c37c9eec5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1899430557}
   m_SourcePrefab: {fileID: 100100000, guid: 0b44a1041adbe624a8cc7d7c37c9eec5, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
