@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{174d24f1-d0ea-413b-8834-e24803b7148c}">
+		<property name="assetPath">
+			<value>SFX/Mary_15.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.47165532879818595</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bca6cdb4-13eb-4a9e-b97e-4f06085f87a1}</destination>
+		</relationship>
+	</object>
+</objects>
