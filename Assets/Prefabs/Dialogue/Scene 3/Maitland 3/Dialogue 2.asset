@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
+  m_Name: Dialogue 2
+  m_EditorClassIdentifier: 
+  dialogueText: 'And when subjects were distressed, issues arised. But all the same,
+    winter comes and goes. But until it left, William would remain on edge.
+
+'
+  leftCharacterName: 
+  leftCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
+  rightCharacterName: 
+  rightCharacterImage: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 86d8f1f7dc4ae0d4c89c48c82222d64e, type: 2}
+  dialogueOptions: []
+  soundEffect:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 

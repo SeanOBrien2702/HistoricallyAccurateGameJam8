@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
+  m_Name: Dialogue 14
+  m_EditorClassIdentifier: 
+  dialogueText: 'This is my point. Gifts might pull lesser lords into line for your
+    agenda, David Rizzio. But it will not confuse me. The crown will need to answer
+    for these things. With words, secretary. '
+  leftCharacterName: 
+  leftCharacterImage: {fileID: 0}
+  rightCharacterName: 
+  rightCharacterImage: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 6d9dd2c0b590c0549b16bdbfe242b0aa, type: 2}
+  dialogueOptions: []
+  soundEffect:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 

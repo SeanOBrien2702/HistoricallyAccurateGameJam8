@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
+  m_Name: Dialogue 40
+  m_EditorClassIdentifier: 
+  dialogueText: "He had. He knew the kind of man William Maitland was. He was a genuine
+    civil servant. One prepared to lay down his life for Scotland if need be. He
+    wasn\u2019t like the other lords, no, he was a man of action."
+  leftCharacterName: 
+  leftCharacterImage: {fileID: 0}
+  rightCharacterName: 
+  rightCharacterImage: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 72a4790fa59066c44aad10fa4aa2e3ea, type: 2}
+  dialogueOptions: []
+  soundEffect:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
