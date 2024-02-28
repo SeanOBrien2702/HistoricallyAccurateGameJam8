@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{0fdfef81-f6f3-40d7-8f3a-548217f73950}">
+	<object class="AudioFile" id="{cf289bca-bebc-4af1-ad5c-fbb64f6adb48}">
 		<property name="assetPath">
-			<value>SFX/William_10.wav</value>
+			<value>SFX/David_14.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.39485260770975056</value>
+			<value>0.51528344671201809</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bca6cdb4-13eb-4a9e-b97e-4f06085f87a1}</destination>
