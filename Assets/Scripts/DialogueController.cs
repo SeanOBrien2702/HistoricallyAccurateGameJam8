@@ -72,7 +72,14 @@ public class DialogueController : MonoBehaviour
                 !isReading)
             {
                 StartCoroutine(PlayText(currentDialogue.NextDialogue));
-            }     
+            }
+            if (currentDialogue.NextDialogue == null &&
+                currentDialogue.DialogueOptions.Length == 0 &&
+               !isReading)
+            {
+                
+                SceneController.Instance.LoadNextScene(K.MenuScene);
+            }
         }
     }
 
