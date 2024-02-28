@@ -30,6 +30,7 @@ public class AudioController : MonoBehaviour
 
     float musicVolume = 0.5f;
     float soundVolume = 0.5f;
+    float voiceVolume = 0.5f;
 
     private void Awake()
     {
@@ -65,6 +66,7 @@ public class AudioController : MonoBehaviour
         DialogueController.OnDialogueEnd += DialogueController_OnDialogueEnd;
         GameSettings.OnMusicVolumeChange += GameSettings_OnMusicVolumeChange;
         GameSettings.OnSoundFXVolumeChange += GameSettings_OnSoundFXVolumeChange;
+        GameSettings.OnVoicesFXVolumeChange += GameSettings_OnVoicesFXVolumeChange;
     }
 
     private void OnDestroy()
@@ -74,6 +76,7 @@ public class AudioController : MonoBehaviour
         DialogueController.OnDialogueEnd -= DialogueController_OnDialogueEnd;
         GameSettings.OnMusicVolumeChange -= GameSettings_OnMusicVolumeChange;
         GameSettings.OnSoundFXVolumeChange -= GameSettings_OnSoundFXVolumeChange;
+        GameSettings.OnVoicesFXVolumeChange -= GameSettings_OnVoicesFXVolumeChange;
     }
 
     private void ContextController_OnNewContext(Context context)
@@ -127,7 +130,7 @@ public class AudioController : MonoBehaviour
         if(voices.ContainsKey(characterName))
         {
             voiceFX = RuntimeManager.CreateInstance(voices[characterName]);
-            voiceFX.setVolume(soundVolume);
+            voiceFX.setVolume(voiceVolume);
             voiceFX.start();
         }
     }
@@ -157,6 +160,12 @@ public class AudioController : MonoBehaviour
     {
         musicVolume = newMusicVolume;
         backgroundMusic[currentMusic].setVolume(musicVolume);
+    }
+
+    private void GameSettings_OnVoicesFXVolumeChange(float newVoiceVolume)
+    {
+        voiceVolume = newVoiceVolume;
+        voiceFX.setVolume(voiceVolume);
     }
 
     internal void PlayOneShot(EventReference sound)

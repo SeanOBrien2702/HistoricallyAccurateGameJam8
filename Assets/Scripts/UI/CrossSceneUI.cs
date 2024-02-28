@@ -29,4 +29,10 @@ public class CrossSceneUI : MonoBehaviour
     {
         settingsUI.SetActive(!settingsUI.activeSelf);
     }
+
+    public void MainMenu()
+    {
+        settingsUI.SetActive(false);
+        SceneController.Instance.LoadNextScene(K.MenuScene);
+    }
 }
