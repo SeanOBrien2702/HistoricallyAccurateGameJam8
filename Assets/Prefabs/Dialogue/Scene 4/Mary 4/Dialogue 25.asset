@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 25
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: He nodded and smiled for her. Mary did wish to bring George back
+    into line entirely, as Henry would always remain close to him. It was in her
+    best interest, not only as the queen, but also as a prospective mother to have
+    as many close allies as possible to help her when she needed.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 6f0ce51cf81d8de4aa8389e12e4936f9, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

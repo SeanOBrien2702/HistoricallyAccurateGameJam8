@@ -12,12 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: Mary was entirely in bliss. Her pregnancy had gotten the better of
+    her. She was nervous about her announcement day, but the lords met her with cheers,
+    compliments, and applause. The crown was immediately showered with gifts, yet
+    she knew that anything of monetary value would simply be given back in other
+    ways to keep the lords appeased.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 71e86bb2ea2c64843a02a1163f60c56f, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

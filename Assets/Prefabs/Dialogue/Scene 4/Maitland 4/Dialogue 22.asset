@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 22
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: David jumped back. William had pinned him to a corner and there was
+    no way around the situation. The truth had been revealed.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: ccf3102c817887c4ab6ae900f225c767, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

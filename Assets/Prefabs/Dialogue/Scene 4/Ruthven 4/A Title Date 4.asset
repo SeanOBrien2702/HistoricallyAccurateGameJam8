@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: January, 1566
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
+  dialogue: {fileID: 11400000, guid: e4bf541759e5ef546a17227f2dc42cc9, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

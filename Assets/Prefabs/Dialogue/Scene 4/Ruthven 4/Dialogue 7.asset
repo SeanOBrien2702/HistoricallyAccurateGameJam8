@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 7
   m_EditorClassIdentifier: 
-  dialogueText: 
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  dialogueText: "Then, please forgive me, I don\u2019t want to extend my stay in
+    Holyrood any longer than I need to, lest I upset the queen with my presence."
+  leftCharacterName: Patrick
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   dialogue: {fileID: 0}
   dialogueOptions: []
   soundEffect:

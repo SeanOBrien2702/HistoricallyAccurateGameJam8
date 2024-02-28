@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 31
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: 'Mary did not want to topple over her friend again. Perhaps it was
+    the pregnancy, perhaps it was simply kindness. '
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: c49ff33e3bec73f44b424e742d550c5b, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

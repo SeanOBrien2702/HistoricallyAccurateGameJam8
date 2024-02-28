@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 14
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: 'This is my point. Gifts might pull lesser lords into line for your
+    agenda, David Rizzio. But it will not confuse me. The crown will need to answer
+    for these things. With words, secretary. '
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 6d9dd2c0b590c0549b16bdbfe242b0aa, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

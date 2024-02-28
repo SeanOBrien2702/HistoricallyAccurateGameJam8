@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 23
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: "Of course, George. And I\u2019m confident that I can rely on you
+    as much as I can with Henry."
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 7af194dbd7bf1a044bc657cb34c222fc, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

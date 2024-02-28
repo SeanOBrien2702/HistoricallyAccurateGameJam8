@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 26
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: I must apologize to you, George. I would like to have you over, with
+    Henry, dinner here at Holyrood some night soon.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 395195c6f01706c40a9eebfad47f1cd1, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

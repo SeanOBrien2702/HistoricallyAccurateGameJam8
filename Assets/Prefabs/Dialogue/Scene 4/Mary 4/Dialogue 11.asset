@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 11
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: "William Maitland, other lords as well, won\u2019t be won with favors
+    or gifts. He just spoke with me at Holyrood after your announcement."
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 1aa0bee5fa0c2d44da4f9af93470ac96, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

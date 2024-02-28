@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 29
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: 'William retreated to Edinburgh to think clearly. '
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 17d3724a0b9b2b4439f4aee6912e8b1d, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

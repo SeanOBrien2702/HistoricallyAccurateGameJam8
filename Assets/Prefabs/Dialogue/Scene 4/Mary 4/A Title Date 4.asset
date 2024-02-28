@@ -17,7 +17,7 @@ MonoBehaviour:
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: ae532cee8ee7b6d49a9ef42fc55409af, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

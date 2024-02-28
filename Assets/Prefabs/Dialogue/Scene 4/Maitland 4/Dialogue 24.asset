@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 24
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: 'You have done enough. '
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 4e5d0a55d7a9beb4293311a59b5f2820, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

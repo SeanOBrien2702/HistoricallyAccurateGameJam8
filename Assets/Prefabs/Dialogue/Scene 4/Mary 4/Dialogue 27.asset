@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 27
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: "That would be nice. I should apologize too, perhaps I criticized
+    you too harshly. I didn\u2019t mean to bring to light anything you didn\u2019t
+    want known."
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: d2c32f893bc396b439295b0433e135b6, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

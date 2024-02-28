@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 22
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: My queen, congratulations on your pregnancy. I am most looking forward
+    to meeting the young Stuart.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: dff28c731c4d80646b180280745beb19, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

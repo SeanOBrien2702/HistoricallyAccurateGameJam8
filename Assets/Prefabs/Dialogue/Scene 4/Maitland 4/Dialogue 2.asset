@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 2
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: "The queen\u2019s announcement at court had left everyone in applause.
+    Even William wanted to praise her. But one long look at Henry Stuart\u2019s face
+    left William with all the doubt he needed. "
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: fd4f8d67250e21c4ca47802a53a32bef, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

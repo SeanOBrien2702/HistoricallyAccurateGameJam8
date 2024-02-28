@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: Praise be, the queen was pregnant. Scotland had an heir, sired certainly
+    by Lord Darnley himself.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 3bf999ebfef179e46b573876ca97a022, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

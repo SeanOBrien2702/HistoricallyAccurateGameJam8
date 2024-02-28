@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 12
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: Spare me of the crass commentary. I am not a fool. I am not like
+    George Douglas or Patrick Ruthven. The timing might make sense, but I am not
+    blind. She may say one thing and act another, but I believe you and I both know
+    the truth of the matter.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 82e3219fdf60779489eabcec0963bc56, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

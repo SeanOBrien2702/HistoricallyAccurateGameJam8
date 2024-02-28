@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 16
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: 'The queen is honest. The queen is in control. Her child will be
+    born within the bounds of her marriage and there is nothing to suggest otherwise. '
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 37d886a7bf528e24bb1005386fa3adcf, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

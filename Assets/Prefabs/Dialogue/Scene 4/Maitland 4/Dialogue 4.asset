@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 4
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: "Any gifts are from the queen - you know I control nothing. Having
+    said that, I\u2019ll take your compliment all the same. Thank you."
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 72a2e5887a09b5d4685c0ab3707ef0c5, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 33
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: "Henry stood still. Ever since the announcement, he felt the need
+    to be something. Not a father, that would come in time, but the need to be something
+    else. Either a person, or an enigma. It was as if he wasn\u2019t in Holyrood
+    at all."
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 6b4ef5a536d381e47b6e117f67c9240c, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

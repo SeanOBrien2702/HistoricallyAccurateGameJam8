@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 19
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: 'She had him. He supported her entirely, and that was enough for
+    Mary. However, even with this reassurance, she felt the need to go back to Holyrood. '
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: e73fe4581fd0ca645ab417cd7c369906, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

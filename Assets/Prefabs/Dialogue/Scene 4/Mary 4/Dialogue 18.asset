@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 18
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: David. If you have faith in your queen, then you need to trust that
+    I have proper judgment on this. You are capable. If there are lords not in line,
+    then you may adjust. Adjust as necessary. Befriend them if you must. Keep them
+    in the fold and we will survive the winter.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 23d48340aba8de644a4b2f13e2773a51, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

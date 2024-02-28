@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 37
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: George, please, these thoughts about David...Just like you say Henry
+    is a part of your life, as is David of mine. That is all there is to it.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: a4a402d25ab32834597d7983ba781bdf, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

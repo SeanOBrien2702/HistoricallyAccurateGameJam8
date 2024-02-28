@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 6
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: 'Both would be good, but Mary - '
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 3c833fb2c3db7124e99abc1f3c995577, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

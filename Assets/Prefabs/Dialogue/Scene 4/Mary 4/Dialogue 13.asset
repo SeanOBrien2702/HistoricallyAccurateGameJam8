@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 13
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: I know.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 89614b9e1c13ea84e8ea2d0bcaaa51e2, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 11
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: And yet you are worried about something.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
-  rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
+  rightCharacterName: George
+  rightCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
+  dialogue: {fileID: 11400000, guid: 521902171292dd74ca5072c2cedcd993, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:
