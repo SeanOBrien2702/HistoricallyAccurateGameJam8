@@ -1509,6 +1509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   historyButton: {fileID: 308197337}
+  nameTag: {fileID: 1757017731}
 --- !u!1 &984825855
 GameObject:
   m_ObjectHideFlags: 0
@@ -1855,7 +1856,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 199168293}
   m_HandleRect: {fileID: 199168292}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 1
   m_OnValueChanged:

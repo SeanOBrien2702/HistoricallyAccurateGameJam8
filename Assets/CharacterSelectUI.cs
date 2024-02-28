@@ -7,10 +7,12 @@ public class CharacterSelectUI : MonoBehaviour
     float dialogueBoxWidth = -250;
     int index = 0;
     [SerializeField] GameObject historyButton;
+    [SerializeField] GameObject nameTag;
 
     void Start()
     {
         historyButton.SetActive(false);
+        nameTag.SetActive(false);
         DialogueController.OnNewDialogue += DialogueController_OnNewDialogue;
     }
 
@@ -29,6 +31,7 @@ public class CharacterSelectUI : MonoBehaviour
         if (index == 3)
         {
             GetComponent<RectTransform>().sizeDelta = new Vector2(dialogueBoxWidth, normalHeight);
+            nameTag.SetActive(true);
             historyButton.SetActive(true);
         }
     }
