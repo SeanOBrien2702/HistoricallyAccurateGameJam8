@@ -56,9 +56,9 @@ public class AudioController : MonoBehaviour
         voices.Add("David", david);
         voices.Add("Mary", mary);
         voices.Add("Henry", henry);
-        voices.Add("Patrick", patrick);
+        voices.Add("Ruthven", patrick);
         voices.Add("George", george);
-        voices.Add("William", william);
+        voices.Add("Maitland", william);
 
         ContextController.OnNewContext += ContextController_OnNewContext;
         DialogueController.OnNewDialogue += DialogueController_OnNewDialogue;

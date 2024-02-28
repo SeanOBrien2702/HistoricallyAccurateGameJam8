@@ -81,18 +81,18 @@ MonoBehaviour:
     Path: event:/05-Scheme
   david:
     Guid:
-      Data1: -909083432
-      Data2: 1142121239
-      Data3: -340793694
-      Data4: 907811124
-    Path: event:/SFX/Dialogue/Henry
+      Data1: -1325734890
+      Data2: 1301264236
+      Data3: 2093002886
+      Data4: 1149085202
+    Path: event:/SFX/Dialogue/David
   george:
     Guid:
-      Data1: -909083432
-      Data2: 1142121239
-      Data3: -340793694
-      Data4: 907811124
-    Path: event:/SFX/Dialogue/Henry
+      Data1: -1042006896
+      Data2: 1236092670
+      Data3: 108501155
+      Data4: 1697003448
+    Path: event:/SFX/Dialogue/George
   henry:
     Guid:
       Data1: -909083432
@@ -102,25 +102,25 @@ MonoBehaviour:
     Path: event:/SFX/Dialogue/Henry
   patrick:
     Guid:
-      Data1: -909083432
-      Data2: 1142121239
-      Data3: -340793694
-      Data4: 907811124
-    Path: event:/SFX/Dialogue/Henry
+      Data1: -1492168317
+      Data2: 1080462602
+      Data3: -1411169890
+      Data4: -1035602805
+    Path: event:/SFX/Dialogue/Patrick
   mary:
     Guid:
-      Data1: -909083432
-      Data2: 1142121239
-      Data3: -340793694
-      Data4: 907811124
-    Path: event:/SFX/Dialogue/Henry
+      Data1: 1266377525
+      Data2: 1219767008
+      Data3: -1075460457
+      Data4: 172590764
+    Path: event:/SFX/Dialogue/Mary
   william:
     Guid:
-      Data1: -909083432
-      Data2: 1142121239
-      Data3: -340793694
-      Data4: 907811124
-    Path: event:/SFX/Dialogue/Henry
+      Data1: 1907838014
+      Data2: 1075465385
+      Data3: -1014924923
+      Data4: -405051809
+    Path: event:/SFX/Dialogue/William
 --- !u!1 &3974828403812724557
 GameObject:
   m_ObjectHideFlags: 0
