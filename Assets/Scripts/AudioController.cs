@@ -2,17 +2,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using FMOD.Studio;
 using FMODUnity;
-using System;
-using FMOD;
+
 
 public class AudioController : MonoBehaviour
 {
+    [Header("Music")]
     [SerializeField] EventReference happy;
     [SerializeField] EventReference commanding;
     [SerializeField] EventReference scheme;
 
     List<EventInstance> backgroundMusic = new List<EventInstance>();
     EventInstance soundFX;
+    EventInstance voiceFX;
+
+    [Header("Voices")]
+    [SerializeField] EventReference david;
+    [SerializeField] EventReference george;
+    [SerializeField] EventReference henry;
+    [SerializeField] EventReference patrick;
+    [SerializeField] EventReference mary;
+    [SerializeField] EventReference william;
+    Dictionary<string, EventReference> voices = new Dictionary<string, EventReference>();
+
     public static AudioController Instance { get; private set; }
     int currentMusic = 0;
 
@@ -38,10 +49,19 @@ public class AudioController : MonoBehaviour
         backgroundMusic.Add(RuntimeManager.CreateInstance(happy));
         backgroundMusic.Add(RuntimeManager.CreateInstance(commanding));
         backgroundMusic.Add(RuntimeManager.CreateInstance(scheme));
-        
         backgroundMusic[0].setParameterByName(GetStatusString(0), 0);
         backgroundMusic[0].start();
+
+        voices.Add("David", david);
+        voices.Add("Mary", mary);
+        voices.Add("Henry", henry);
+        voices.Add("Patrick", patrick);
+        voices.Add("George", george);
+        voices.Add("William", william);
+
         ContextController.OnNewContext += ContextController_OnNewContext;
+        DialogueController.OnNewDialogue += DialogueController_OnNewDialogue;
+        DialogueController.OnDialogueEnd += DialogueController_OnDialogueEnd;
         GameSettings.OnMusicVolumeChange += GameSettings_OnMusicVolumeChange;
         GameSettings.OnSoundFXVolumeChange += GameSettings_OnSoundFXVolumeChange;
     }
@@ -49,6 +69,8 @@ public class AudioController : MonoBehaviour
     private void OnDestroy()
     {
         ContextController.OnNewContext -= ContextController_OnNewContext;
+        DialogueController.OnNewDialogue -= DialogueController_OnNewDialogue;
+        DialogueController.OnDialogueEnd -= DialogueController_OnDialogueEnd;
         GameSettings.OnMusicVolumeChange -= GameSettings_OnMusicVolumeChange;
         GameSettings.OnSoundFXVolumeChange -= GameSettings_OnSoundFXVolumeChange;
     }
@@ -82,21 +104,46 @@ public class AudioController : MonoBehaviour
         return "Intensity" + (musicIndex + 1);
     }
 
-    public void PlayOneShot(EventReference sound)
-    {
-        RuntimeManager.PlayOneShot(sound);
-    }
-
-    internal void EndSoundEffect()
-    {
-        soundFX.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
-    }
-
-    internal void PlaySoundEffect(EventReference soundEffect)
+    void PlaySoundEffect(EventReference soundEffect)
     {
         soundFX = RuntimeManager.CreateInstance(soundEffect);
         soundFX.setVolume(soundVolume);
         soundFX.start();
+    }
+
+    void PlayCharacterVoice(Dialogue dialogue)
+    {
+        string characterName = "";
+        if (dialogue.LeftCharacterName != "")
+        {
+            characterName = dialogue.LeftCharacterName;
+        }
+        else if(dialogue.RightCharacterName != "")
+        {
+            characterName = dialogue.RightCharacterName;
+        }
+
+        if(voices.ContainsKey(characterName))
+        {
+            voiceFX = RuntimeManager.CreateInstance(voices[characterName]);
+            voiceFX.setVolume(soundVolume);
+            voiceFX.start();
+        }
+    }
+
+    private void DialogueController_OnNewDialogue(Dialogue dialogue)
+    {
+        soundFX.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        if (!dialogue.SoundEffect.IsNull)
+        {
+            PlaySoundEffect(dialogue.SoundEffect);
+        }
+        PlayCharacterVoice(dialogue);
+    }
+
+    private void DialogueController_OnDialogueEnd(Dialogue obj)
+    {
+        voiceFX.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
     }
 
     private void GameSettings_OnSoundFXVolumeChange(float newSoundVolume)

@@ -226,7 +226,7 @@
 	</object>
 	<object class="LoopRegion" id="{36541ecc-02d8-4eb8-a540-fb4b9cfe0540}">
 		<property name="position">
-			<value>1.7142857142857142</value>
+			<value>5.1428571428571423</value>
 		</property>
 		<property name="length">
 			<value>6.8571428571428568</value>
@@ -254,13 +254,10 @@
 	</object>
 	<object class="TransitionRegion" id="{7733419e-ba76-4167-9be4-737f62d702ed}">
 		<property name="position">
-			<value>1.7142857142857142</value>
+			<value>5.1428571428571423</value>
 		</property>
 		<property name="length">
 			<value>6.8571428571428568</value>
-		</property>
-		<property name="quantizationInterval">
-			<value>2</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{c5654514-f098-4e3b-94d3-fb63ad45bbf7}</destination>
@@ -328,6 +325,7 @@
 			<destination>{6c2fda92-0896-43ca-9409-9c152c7b127f}</destination>
 			<destination>{b7028e39-9410-415e-86eb-fd7bd208abe6}</destination>
 			<destination>{a04e67b5-19a3-4d76-acd0-c3f563c17374}</destination>
+			<destination>{3bd0ca96-7a00-4ef8-823e-9594b5a7b3ed}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{28683ba8-11b3-4ade-971e-e5e5e39479ba}" />
@@ -338,6 +336,9 @@
 		</property>
 		<property name="value">
 			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>0.265058398</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{6c2fda92-0896-43ca-9409-9c152c7b127f}">
@@ -353,15 +354,29 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-10</value>
+			<value>-80</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.236799926</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{a04e67b5-19a3-4d76-acd0-c3f563c17374}">
 		<property name="position">
-			<value>1.7142857142857142</value>
+			<value>5.1428571428571423</value>
 		</property>
 		<property name="value">
 			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{3bd0ca96-7a00-4ef8-823e-9594b5a7b3ed}">
+		<property name="position">
+			<value>0.8571428571428571</value>
+		</property>
+		<property name="value">
+			<value>-13</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.332974494</value>
 		</property>
 	</object>
 </objects>

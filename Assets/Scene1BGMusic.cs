@@ -7,7 +7,7 @@ public class Scene1BGMusic : MonoBehaviour
 {
     FMOD.Studio.EventInstance BackgroundMusic01;
     FMOD.Studio.EventInstance BackgroundMusic02;
-    // FMOD.Studio.EventInstance BackgroundMusic03;
+    FMOD.Studio.EventInstance BackgroundMusic03;
     FMOD.Studio.EventInstance BackgroundMusic04;
     FMOD.Studio.EventInstance BackgroundMusic05;
 
@@ -22,6 +22,7 @@ public class Scene1BGMusic : MonoBehaviour
     {
             BackgroundMusic01 = FMODUnity.RuntimeManager.CreateInstance("event:/01-Happy-uplifting");
             BackgroundMusic02 = FMODUnity.RuntimeManager.CreateInstance("event:/02-Pressure");
+            BackgroundMusic03 = FMODUnity.RuntimeManager.CreateInstance("event:/03-Easy");
             BackgroundMusic04 = FMODUnity.RuntimeManager.CreateInstance("event:/04-Commanding");
             BackgroundMusic05 = FMODUnity.RuntimeManager.CreateInstance("event:/05-Scheme");
             playingMood = 0;
@@ -47,6 +48,7 @@ public class Scene1BGMusic : MonoBehaviour
         switch(playingMood) {
             case 1: BackgroundMusic01.setParameterByName("Status1", 1); break;
             case 2: BackgroundMusic02.setParameterByName("Status2", 1); break;
+            case 3: BackgroundMusic03.setParameterByName("Status3", 1); break;
             case 4: BackgroundMusic04.setParameterByName("Status4", 1); break;
             case 5: BackgroundMusic05.setParameterByName("Status5", 1); break;
         }
@@ -64,6 +66,11 @@ public class Scene1BGMusic : MonoBehaviour
                     intensity=0;
                     BackgroundMusic02.setParameterByName("Status2", 0);
                     BackgroundMusic02.start();
+                    break;
+                case 3:
+                    intensity=0;
+                    BackgroundMusic03.setParameterByName("Status3", 0);
+                    BackgroundMusic03.start();
                     break;                    
                 case 4:
                     intensity=0;

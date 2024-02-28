@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
+  m_Name: Intro - Select
+  m_EditorClassIdentifier: 
+  dialogueText: Who would you like to follow?
+  leftCharacterName: 
+  leftCharacterImage: {fileID: 0}
+  rightCharacterName: 
+  rightCharacterImage: {fileID: 0}
+  dialogue: {fileID: 0}
+  dialogueOptions:
+  - optionText: David Rizzio, secretary to the queen.
+    dialogue: {fileID: 11400000, guid: 10055602bb4c6624f9bcd284a9ec3ebd, type: 2}
+  - optionText: Mary Stuart, the Queen of Scots
+    dialogue: {fileID: 11400000, guid: 04166f55fbeaa3341af5145ef68ec334, type: 2}
+  - optionText: Henry Stuart, Lord Darnley
+    dialogue: {fileID: 11400000, guid: bcb907bee3bfdac489a03677d976f9e5, type: 2}
+  - optionText: George Douglas, Lord Douglas
+    dialogue: {fileID: 11400000, guid: 030bdb3d1e7e3d64ea527c8300f54669, type: 2}
+  - optionText: Patrick Ruthven, Lord Ruthven
+    dialogue: {fileID: 11400000, guid: 8d3f9a7a881076a469384f66efa1e2a9, type: 2}
+  - optionText: William Maitland, Secretary of State
+    dialogue: {fileID: 11400000, guid: d76164d5124952c4cbcd3d70da84b6cf, type: 2}
+  soundEffect:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
