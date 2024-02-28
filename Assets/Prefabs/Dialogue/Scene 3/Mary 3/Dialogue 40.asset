@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 40
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: "He had not refused her. Not yet. There was still time for him to
+    abandon her. There was still room for him to leave. She didn\u2019t want to give
+    him the opportunity. But she owed him that much."
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: dee7406a7223a4470b740b15173b1995, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
+  dialogue: {fileID: 11400000, guid: 85d9dda3cff421b469e5a08521c7c862, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

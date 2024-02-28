@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 3
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: Only the queen did not. And that, Patrick knew, would work to his
+    advantage.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 5eb3b423a4059e94b8153e4451416114, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: "The winds did not sit well with David. The cold was different in
+    Scotland than it was in Italy. A cold day in the south was present enough. But
+    after the handful of years in Scotland, David wasn\u2019t sure he would ever
+    get used to it."
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 456ec47c30cf5fc48a902598f1b15522, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

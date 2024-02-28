@@ -12,11 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 21
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: "At first, he wanted to ignore him. Let the young lord cool down
+    from whatever angered him. But then he saw the uncontainable excitement in Ruthven\u2019s
+    eye. If William was ever going to force Ruthven into favor in the future, the
+    time for him to act would be now."
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 0}
   dialogueOptions: []
   soundEffect:

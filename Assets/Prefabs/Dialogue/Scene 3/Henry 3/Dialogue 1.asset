@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 1
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: Henry had thought constructively about what Patrick Ruthven had said
+    to him. He was right - Henry should be in control of at least a fraction of military
+    units. Understandably, Mary should control the majority. But Henry had earned
+    this.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 3a704a0ea2644c0498646218beacdea4, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

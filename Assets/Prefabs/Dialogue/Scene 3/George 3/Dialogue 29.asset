@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 29
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: He did not want to leave her, but even he curled his brow. If she
+    could not see the issue with David in her purview, then that meant she welcomed
+    it. Once again, William Maitland was correct.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 9214534d5157a7644a26aad71e57d6f0, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

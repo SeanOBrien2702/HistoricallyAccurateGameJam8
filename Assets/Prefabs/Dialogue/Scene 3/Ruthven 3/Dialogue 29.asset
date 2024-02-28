@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 29
   m_EditorClassIdentifier: 
-  dialogueText: 
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  dialogueText: He will still be here when William Maitland releases him - please,
+    talk to me. You look upset.
+  leftCharacterName: Ruthven
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
+  dialogue: {fileID: 11400000, guid: 4193e8f3fb7b2574eabc1a132dd9ffab, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:
