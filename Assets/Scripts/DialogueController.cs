@@ -111,8 +111,8 @@ public class DialogueController : MonoBehaviour
         OnNewDialogue?.Invoke(dialogue);
         UpdateUI(dialogue);
         AudioController.Instance.PlayOneShot(nexDialogueSound);
-
-        foreach (char character in dialogue.DialogueText)
+        string buffer =  dialogue.DialogueText.Replace('\u2019', '\'');
+        foreach (char character in buffer)
         {
             dialogueText.text += character;
             if (isFastForward)
@@ -125,7 +125,7 @@ public class DialogueController : MonoBehaviour
             }
         }
           
-        dialogueText.text = dialogue.DialogueText;
+        dialogueText.text = buffer;
         int optionsIndex = 0;
         foreach (var option in dialogue.DialogueOptions)
         {
