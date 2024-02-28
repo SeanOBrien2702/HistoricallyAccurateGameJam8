@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: A Title Date 2
   m_EditorClassIdentifier: 
-  dialogueText: September, 1565
+  dialogueText: September, 1565 - The Plan
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 

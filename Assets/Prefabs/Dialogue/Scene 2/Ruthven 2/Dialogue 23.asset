@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 23
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: Lord Darnley was his. The deception had been completed. Now all that
+    remained was for him to trot back to Holyrood and let the doubt fester.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: fd845dc3c146c5e4eaa186d459258bec, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

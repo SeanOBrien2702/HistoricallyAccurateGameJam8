@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: Yet there were times he did not think he could.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: 0b193027ae3564d4594df48648ff9ad5, type: 2}

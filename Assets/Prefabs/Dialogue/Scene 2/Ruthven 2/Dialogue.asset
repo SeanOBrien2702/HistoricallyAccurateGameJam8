@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: Patrick Ruthven had preferred to take meetings at Edinburgh as of
+    late. After his defeat at the feet of the queen at her own wedding, he dared
+    not show his face at Holyrood for longer than required.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 7699e54a4d195ba48b3cb37c4e6adfbc, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

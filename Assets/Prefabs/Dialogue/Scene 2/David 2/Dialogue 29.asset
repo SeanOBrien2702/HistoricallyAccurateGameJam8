@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogueText: "She sighed, which isn\u2019t an abnormal response. She looked exhausted,
     emotionally worn, and if anything, borderline battle damaged."
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   dialogue: {fileID: 11400000, guid: e1befb8bd4d7e5546a215d2418fbf2fa, type: 2}
   dialogueOptions: []
   soundEffect:

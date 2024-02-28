@@ -15,10 +15,10 @@ MonoBehaviour:
   dialogueText: "Lord Darnley was never a problem, you know this. He\u2019s quite
     susceptible to influence, his house has a fair amount of influence, as is shown
     in their union here."
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: Maitland
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   dialogue: {fileID: 11400000, guid: 4ef4728d684e8b945ab5f2922bbe5b47, type: 2}
   dialogueOptions: []
   soundEffect:

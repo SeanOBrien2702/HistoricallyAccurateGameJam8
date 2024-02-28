@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "I have been married for no less than a week and you seek my husband\u2019s
     resources: his workers, his till? Have you no shame for such a request?"
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: Mary
+  leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: ef932b24af66ea0419b34d9abee9a922, type: 2}
   dialogueOptions: []
   soundEffect:

@@ -16,7 +16,7 @@ MonoBehaviour:
     Her room was gallant as can be and preached royalty. In fact, if it did speak
     a language, it would simply be called \u201CRoyal.\u201D"
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: 87f0e8d1fa9fd234eab70c12012a2c5f, type: 2}

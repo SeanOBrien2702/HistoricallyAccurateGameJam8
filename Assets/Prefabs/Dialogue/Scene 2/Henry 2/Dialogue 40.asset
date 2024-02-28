@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 40
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: He had plenty of conversations with both David and Mary separately,
+    as well as with them together.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
+  dialogue: {fileID: 11400000, guid: 01134d9951f11fb49b206a418d113a12, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

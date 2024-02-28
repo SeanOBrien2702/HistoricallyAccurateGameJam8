@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: 'The winds began to pick up for Scotland. The summer and festivities
+    had come and gone. Now was the time for work. '
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 6b1ba2b385983bb4290d735b33eba721, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

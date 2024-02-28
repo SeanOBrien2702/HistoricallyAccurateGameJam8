@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: State your mind, Patrick. Even during my wedding, I know you do not
     approach me without an agenda.
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: Mary
+  leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: 6bae153c4149b7f418e2394af31ef925, type: 2}
   dialogueOptions: []
   soundEffect:

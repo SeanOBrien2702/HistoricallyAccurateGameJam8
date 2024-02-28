@@ -16,7 +16,7 @@ MonoBehaviour:
     Henry could not possibly have married a better woman. She was beautiful, gallant,
     strong, and kind to him. Oh, and by the way, she was the queen. The queen! "
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: ca1815c97f6b71b42b5322dbbe8fa2cd, type: 2}

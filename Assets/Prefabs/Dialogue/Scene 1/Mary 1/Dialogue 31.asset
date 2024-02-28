@@ -15,10 +15,10 @@ MonoBehaviour:
   dialogueText: "Not only that, but without my lead council, you seek an immediate
     answer to this request? For such a high cost, I am returned nothing other than
     your pleasantries?\r"
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: Mary
+  leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: ca69e0ef82e45094da82a31fa18d0652, type: 2}
   dialogueOptions: []
   soundEffect:

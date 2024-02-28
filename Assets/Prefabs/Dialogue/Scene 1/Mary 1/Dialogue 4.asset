@@ -15,10 +15,10 @@ MonoBehaviour:
   dialogueText: Oh, stop now. You know how important this is. In fact, if I remember
     correctly, marrying Lord Darnley was one of your first suggestions to me all
     those years ago.
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: Mary
+  leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   dialogue: {fileID: 11400000, guid: b35a8a6b760bb144397966f5a9df2fd9, type: 2}
   dialogueOptions: []
   soundEffect:

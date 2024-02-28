@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 2
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: "It wasn\u2019t simply the requests for aid - this was a common occurrence
+    for the queen."
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
+  dialogue: {fileID: 11400000, guid: 5302990fd07e0484b878348b4b2c47a4, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

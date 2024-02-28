@@ -17,7 +17,7 @@ MonoBehaviour:
     lords close to the throne. They had made valuable moves in the months since the
     wedding, but now was not the time for them to slow down their role."
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: 1ee307e1375b3264a9f63ad16bfe8fb5, type: 2}

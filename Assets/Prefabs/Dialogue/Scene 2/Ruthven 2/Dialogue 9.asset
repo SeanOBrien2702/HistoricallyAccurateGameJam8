@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 9
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: "It was almost painful to watch. Patrick had this young man\u2019s
+    life displayed in front of him on an imaginary war table."
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 7a976a47ee1da404aaae73a6ec01f4e9, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

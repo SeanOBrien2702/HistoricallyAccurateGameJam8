@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogueText: Not that she feared a coup, but she could sleep easier if Henry played
     his part. And so far, at least for one week, he had played it to perfection.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   dialogue: {fileID: 11400000, guid: 3cd54f7265987f042980d5ce8b8d4d4b, type: 2}
   dialogueOptions: []
   soundEffect:

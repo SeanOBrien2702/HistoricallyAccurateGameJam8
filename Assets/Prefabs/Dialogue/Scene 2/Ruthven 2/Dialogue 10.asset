@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 10
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: "Oh, my apologies, Lord Darnley. I was under the impression you were
+    the military mind now that you had been brought into the fold. The Stuart name
+    precedes you; I shouldn\u2019t have assumed."
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 16b4c46988ef9cf4987f5237d6bfcce4, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

@@ -18,7 +18,7 @@ MonoBehaviour:
     not, everyone cared about George. It was as if he had married into the family
     himself. '
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: 0849b2c0da100e94094edbd605e04cad, type: 2}

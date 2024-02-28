@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogueText: "Mary could hear the man\u2019s tongue from across the ballroom even
     if he whispered her name. "
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: 4cae24d3f5bf72244a8b4860787c5130, type: 2}
   dialogueOptions: []
   soundEffect:

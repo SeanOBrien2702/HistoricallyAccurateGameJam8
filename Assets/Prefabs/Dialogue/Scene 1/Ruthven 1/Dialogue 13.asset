@@ -16,9 +16,9 @@ MonoBehaviour:
     of state, it was good to not show that he knew all of the players. Or what their
     assets were. Or what they were capable of.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: 4cd95252768c9d246bf1b1746428a7ac, type: 2}
   dialogueOptions: []
   soundEffect:

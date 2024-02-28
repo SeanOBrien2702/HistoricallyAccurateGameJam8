@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 27
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: "Henry, don\u2019t be foolish. There is only one person with power
+    in Scotland. David does not command the army. He does not divide resources or
+    till. He does not have any more money to his name than the pay the crown gives
+    him for his service."
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
+  dialogue: {fileID: 11400000, guid: 4f5d203b50e11ce498f18eef165ae88d, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

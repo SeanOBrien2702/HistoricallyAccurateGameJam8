@@ -16,9 +16,9 @@ MonoBehaviour:
     David. He had only been in her purview for months as a musician. He had always
     caught her eye. Why was an Italian in her Scottish ensemble? '
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   dialogue: {fileID: 11400000, guid: eb9f87a9a346c0c4bb63da6a5156fb1c, type: 2}
   dialogueOptions: []
   soundEffect:

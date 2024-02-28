@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: It should go without saying, but he does appear to be quite distasteful
     of me.
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: David
+  leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   dialogue: {fileID: 11400000, guid: 8f940fbebc502d7449cb11fb809bdf4f, type: 2}
   dialogueOptions: []
   soundEffect:

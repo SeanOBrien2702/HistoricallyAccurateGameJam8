@@ -17,9 +17,9 @@ MonoBehaviour:
     that, such a simple request opens the door for more exchanges, more money transfers,
     more power, stronger relationships! '
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: 85c3c6052a72efa4faba6f78ad9470da, type: 2}
   dialogueOptions: []
   soundEffect:

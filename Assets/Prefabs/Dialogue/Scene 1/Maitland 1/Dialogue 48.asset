@@ -15,10 +15,10 @@ MonoBehaviour:
   dialogueText: "David? He\u2019s smart - for being a foreigner, he has quite the
     eye for politics. I know the queen trusts him implicitly. What do you need me
     to ask of him?"
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: George
+  leftCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   dialogue: {fileID: 11400000, guid: 7471f77578bfc0a4cb6ed35a5a65f5bb, type: 2}
   dialogueOptions: []
   soundEffect:

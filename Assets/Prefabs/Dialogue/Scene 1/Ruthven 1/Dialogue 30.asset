@@ -16,9 +16,9 @@ MonoBehaviour:
     Before, perhaps? No matter, the time was now. All he had to do was wait for her
     to say the next sentence. He was in control of the conversation.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: b6368c6c48ec858429c22c4fa6b1b632, type: 2}
   dialogueOptions: []
   soundEffect:

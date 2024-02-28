@@ -15,10 +15,10 @@ MonoBehaviour:
   dialogueText: Or rather, how much more knowledge did he possess compared to George,
     a lord of Scotland?
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
+  dialogue: {fileID: 11400000, guid: 82017d0901e18634d8ec9f7b7c4f384e, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

@@ -15,10 +15,10 @@ MonoBehaviour:
   dialogueText: "My wife! And David! I\u2019m glad I found both of you. David, thank
     you for the week of festivities. They have gone beyond my expectations for a
     royal party."
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: Henry
+  leftCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   dialogue: {fileID: 11400000, guid: 00eee2d5215e4c84ca45745277ed6b73, type: 2}
   dialogueOptions: []
   soundEffect:

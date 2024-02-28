@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogueText: What could he do that the secretary of state could not do on his
     own?
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   dialogue: {fileID: 11400000, guid: 9f25de28f7e91de40b98fbf977b4a2cd, type: 2}
   dialogueOptions: []
   soundEffect:

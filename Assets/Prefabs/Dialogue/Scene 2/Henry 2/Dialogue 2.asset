@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 2
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: Of which, Patrick Ruthven had requested a meeting with him at Edinburgh.
+    Court had ended and he saw no reason to ignore him. He had heard from others
+    that the queen had eviscerated him during their wedding, but she spoke nothing
+    of the sort, nor did he see the event take place.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
+  dialogue: {fileID: 11400000, guid: 1cb64dd6f32af784ea847f5caf165a2d, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

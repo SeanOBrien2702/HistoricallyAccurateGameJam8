@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 27
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: But if Patrick was to exact revenge properly, he needed more than
+    doubt. He needed real allies. Not some child who was too young to see he had
+    been taken advantage of.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: e3f263e0e3a98fe4db48f5be05145ef4, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 4
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: "No matter. Her time needed to come to an end. He had decided. But
+    Patrick\u2019s efforts could not go on his own. He needed assistance. Where better
+    to start acquiring information than with the one who shares her bed?"
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: f1c026db10da2b6498a289a433660eb4, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

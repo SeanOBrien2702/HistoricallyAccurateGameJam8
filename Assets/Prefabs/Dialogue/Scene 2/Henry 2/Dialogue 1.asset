@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 1
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: Henry had found pride in his marriage. His wife was beyond any woman
+    in the realm, his assets had already begun helping the throne, and his peers
+    looked up to him in a way that he never imagined.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 58ad757779857eb4ca8e8de9906e292b, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

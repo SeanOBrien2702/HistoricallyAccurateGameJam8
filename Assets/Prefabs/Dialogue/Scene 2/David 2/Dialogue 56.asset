@@ -16,10 +16,10 @@ MonoBehaviour:
     with a smile. Relief. There was no anguish in her breath. David enjoyed her newfound
     bliss after yet another long day.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
+  dialogue: {fileID: 11400000, guid: 97f06b51dfb95db48901aa36bcd958f3, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

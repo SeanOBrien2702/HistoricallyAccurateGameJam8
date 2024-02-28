@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 4
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: "She found it exasperating that lords thought that the man had any
+    such influence over the monarch\u2019s decision making. Of which, he had none.
+    He did have support. But he did not have power with their union."
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
+  dialogue: {fileID: 11400000, guid: 4c5752690be05e845ae4c32e26c377f3, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

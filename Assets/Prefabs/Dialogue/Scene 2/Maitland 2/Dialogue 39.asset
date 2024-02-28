@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 39
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: "William had to be on the right side of history. Ruthven wasn\u2019t
+    wrong. But this wasn\u2019t particularly right, either. But William had more
+    years to serve. He had more to give. He had to support Scotland. No matter who
+    held power."
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
+  dialogue: {fileID: 11400000, guid: a2fe7c7d05753054f8195df3af647a13, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

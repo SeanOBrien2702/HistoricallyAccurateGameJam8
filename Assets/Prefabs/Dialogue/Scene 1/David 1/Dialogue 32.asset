@@ -17,9 +17,16 @@ MonoBehaviour:
     women on the side. He watched Maitland slither back towards other members of
     court. He caught Lord Ruthven out of the corner of his eye doing the same as
     him."
-  leftCharacterName: David
-  leftCharacterImage: {fileID: 0}
-  rightCharacterName: Maitland
+  leftCharacterName: 
+  leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
+  rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: a281b22fb8d201f4b824809c7e841d2a, type: 2}
   dialogueOptions: []
+  soundEffect:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 

@@ -15,10 +15,10 @@ MonoBehaviour:
   dialogueText: "Always on top of your game, my Queen. I want to query you on moving
     some resources from Lord Darnley\u2019s domain into my own. Now that he is comfortably
     in your camp, I\u2019m sure you can adjust for such an exchange."
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: Ruthven
+  leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: 8d9e9cb1b6899e741915236fc200c701, type: 2}
   dialogueOptions: []
   soundEffect:

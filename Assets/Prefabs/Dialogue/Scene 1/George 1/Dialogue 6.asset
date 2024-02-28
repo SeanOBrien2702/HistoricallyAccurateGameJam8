@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: No! You have wedded the Queen, Henry! Did you ever think you would
     be here? What a life you have yet to live. I am so happy for you, Henry.
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: George
+  leftCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   dialogue: {fileID: 11400000, guid: f44f1e40cf616c64a98dfd75e86023b4, type: 2}
   dialogueOptions: []
   soundEffect:

@@ -17,9 +17,9 @@ MonoBehaviour:
     the conversation in his head over a hundred times. He knew exactly what he wanted
     to say and how he had to say it.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: 8f4bdeeb0aa49494eb40b3fc0fef912a, type: 2}
   dialogueOptions: []
   soundEffect:

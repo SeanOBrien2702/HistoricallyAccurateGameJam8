@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: 'Thank you, George. That means a lot. If not me marrying the Queen,
     then I would demand it must have been you. '
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: Henry
+  leftCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   dialogue: {fileID: 11400000, guid: 39ceb91b680c4cd49b279357a8207b30, type: 2}
   dialogueOptions: []
   soundEffect:

@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 19
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: "Pay no mind to that, it was one conversation. I had already forgotten.\r"
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 1cb3e66a0c5c7384ea5f8d5ce832c537, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

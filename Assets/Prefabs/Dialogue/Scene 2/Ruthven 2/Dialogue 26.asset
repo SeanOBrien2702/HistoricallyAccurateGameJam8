@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 26
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: Henry bid farewell to Patrick Ruthven and began his trek back to
+    Holyrood Palace. It was almost fun to watch the young lord writhe in the conversation.
+    Someone who had so much wealth and supposed power brought down to a mere conversation
+    piece in a matter of sentences.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: dee3b45d851c21d4680e46364ba99a74, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

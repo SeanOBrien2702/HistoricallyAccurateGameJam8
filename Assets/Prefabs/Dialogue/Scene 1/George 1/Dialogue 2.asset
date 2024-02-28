@@ -16,7 +16,7 @@ MonoBehaviour:
     Not that he had calculated such a relationship when they were young, they were
     genuine friends, but the friendship had certainly paid off now.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: caa9ab7139328a34aa4d6a3dbbbedc1e, type: 2}

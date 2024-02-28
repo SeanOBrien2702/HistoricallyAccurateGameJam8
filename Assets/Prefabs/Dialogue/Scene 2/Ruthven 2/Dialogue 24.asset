@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 24
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: I will let you know, Lord Ruthven. Thank you for believing in me.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 02a4240372aae3247ac44d9797f4274a, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

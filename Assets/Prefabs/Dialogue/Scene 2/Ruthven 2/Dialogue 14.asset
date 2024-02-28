@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 14
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: It was almost too easy. Each step pushed Lord Darnley closer to a
+    proverbial cliff.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 653a7876ab51dbb4694b60a60c10837e, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

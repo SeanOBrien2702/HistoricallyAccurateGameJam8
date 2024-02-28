@@ -13,9 +13,16 @@ MonoBehaviour:
   m_Name: Dialogue 2
   m_EditorClassIdentifier: 
   dialogueText: Nonsense. The week has been perfect. Even my husband has begun smiling.
-  leftCharacterName: David
-  leftCharacterImage: {fileID: 0}
-  rightCharacterName: Mary
-  rightCharacterImage: {fileID: 0}
+  leftCharacterName: Mary
+  leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
+  rightCharacterName: 
+  rightCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   dialogue: {fileID: 11400000, guid: 3bdbd075123349c4391e3943937b579c, type: 2}
   dialogueOptions: []
+  soundEffect:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 

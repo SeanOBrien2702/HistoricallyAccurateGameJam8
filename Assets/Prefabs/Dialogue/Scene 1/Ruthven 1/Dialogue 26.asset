@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "You couldn\u2019t have picked a finer lord to make your husband.
     I assure you, Henry will make you happy beyond all measure."
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: Ruthven
+  leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: 98352bf12e480c943967ed074d9ceb33, type: 2}
   dialogueOptions: []
   soundEffect:

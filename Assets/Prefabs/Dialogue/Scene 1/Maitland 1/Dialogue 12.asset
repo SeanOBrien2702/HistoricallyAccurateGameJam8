@@ -16,9 +16,9 @@ MonoBehaviour:
     William. This man was in the pocket of the one person that William could not
     influence."
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   dialogue: {fileID: 11400000, guid: 435ab073da944354caf1f7ab9692cd3d, type: 2}
   dialogueOptions: []
   soundEffect:

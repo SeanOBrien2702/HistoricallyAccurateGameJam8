@@ -15,11 +15,11 @@ MonoBehaviour:
   dialogueText: But David could forget all of them the moment they left his gaze.
     The only image he lingered on was Mary herself. For her safety, her enjoyment,
     her happiness. For tonight, she was happy. As was he. Truly, truly happy.
-  leftCharacterName: David
-  leftCharacterImage: {fileID: 0}
-  rightCharacterName: Maitland
+  leftCharacterName: 
+  leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
+  rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 8d989c21d9d63244ba2c5449fa02399a, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

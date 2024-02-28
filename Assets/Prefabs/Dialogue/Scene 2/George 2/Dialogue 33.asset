@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Dialogue 33
   m_EditorClassIdentifier: 
   dialogueText: 'Is this a request from your brother? '
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: David
+  leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
+  dialogue: {fileID: 11400000, guid: 92734e01d48b6f04ca08ebb9e3e4d26d, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

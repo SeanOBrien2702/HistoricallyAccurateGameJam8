@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "Quite well! Is there anything I can do for you? Perhaps not tonight,
     as even I might be too under the influence by this week\u2019s festivities."
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: George
+  leftCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   dialogue: {fileID: 11400000, guid: 18eaf2565b483d141bd028c5d430ef54, type: 2}
   dialogueOptions: []
   soundEffect:

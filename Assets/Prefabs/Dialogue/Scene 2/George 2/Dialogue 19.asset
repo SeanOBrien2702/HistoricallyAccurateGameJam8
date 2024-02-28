@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "If you aren\u2019t suspicious then I have no reason to be. I was
     just curious."
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: George
+  leftCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
+  dialogue: {fileID: 11400000, guid: 79fc489496a71a844b11b19b9b41f7ed, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

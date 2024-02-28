@@ -17,9 +17,9 @@ MonoBehaviour:
     who called on David to step into her world. His talents, his intrigue, his incredulous
     wit was all wasted if he was not using that mind to aid her. '
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   dialogue: {fileID: 11400000, guid: ca5e68b5afc8c69409013dbe50299b1c, type: 2}
   dialogueOptions: []
   soundEffect:

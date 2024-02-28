@@ -14,9 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: 'No need for pleasantries while the queen is in attendance. At most
     I am your secretary of state. '
-  leftCharacterName: David
-  leftCharacterImage: {fileID: 0}
-  rightCharacterName: Maitland
-  rightCharacterImage: {fileID: 0}
+  leftCharacterName: Maitland
+  leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
+  rightCharacterName: 
+  rightCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   dialogue: {fileID: 11400000, guid: 8bc17874fdaafe14cbd7fc277c762fa8, type: 2}
   dialogueOptions: []
+  soundEffect:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 

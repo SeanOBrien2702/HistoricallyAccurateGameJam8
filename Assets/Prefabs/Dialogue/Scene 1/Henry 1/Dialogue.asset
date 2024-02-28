@@ -16,7 +16,7 @@ MonoBehaviour:
     Queen of Scots. He was his family\u2019s pride - the new generation to bring
     great wealth and power to the Stuart name. "
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: cebfb52a29536c040a506a0495a2c4bc, type: 2}

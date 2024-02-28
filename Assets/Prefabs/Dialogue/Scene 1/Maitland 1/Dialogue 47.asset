@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Dialogue 47
   m_EditorClassIdentifier: 
   dialogueText: "I wish for you to talk to Lord Darnley about the queen\u2019s secretary."
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: Maitland
+  leftCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   dialogue: {fileID: 11400000, guid: 468aff8cc7fca5a42ae0e0c15259fb69, type: 2}
   dialogueOptions: []
   soundEffect:

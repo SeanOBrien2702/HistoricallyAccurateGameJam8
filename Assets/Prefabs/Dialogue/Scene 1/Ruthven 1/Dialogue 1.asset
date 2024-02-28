@@ -16,10 +16,10 @@ MonoBehaviour:
     wedding of our queen to a justifiable lord?
 
 '
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: Ruthven
+  leftCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: 725ce789e28747842bb7f615357221b8, type: 2}
   dialogueOptions: []
   soundEffect:

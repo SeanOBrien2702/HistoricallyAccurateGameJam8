@@ -16,10 +16,10 @@ MonoBehaviour:
     there was more strategy involved in this conversation than George cared to consider.
     In fact, he felt dirty about being caught in the middle of this conversation.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
+  dialogue: {fileID: 11400000, guid: 04af7f8754276ce4fa5a813215291aec, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

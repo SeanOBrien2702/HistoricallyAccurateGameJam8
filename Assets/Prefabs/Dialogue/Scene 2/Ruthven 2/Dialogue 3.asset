@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 3
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: How ridiculous. She was but a child to him, yet by circumstance,
+    held more power than he ever would. He had been a politician for longer than
+    she had been alive, yet he had to bend to her discourse.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 422e95df7f4afae48b9cd69bcdf02126, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

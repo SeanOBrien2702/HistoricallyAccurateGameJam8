@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogueText: Whether it was a simple smile like this, or a brazen display of public
     discussion, she could always surprise him.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   dialogue: {fileID: 11400000, guid: a772a89aa7f96c24c9a6f4bb98ae3fcd, type: 2}
   dialogueOptions: []
   soundEffect:

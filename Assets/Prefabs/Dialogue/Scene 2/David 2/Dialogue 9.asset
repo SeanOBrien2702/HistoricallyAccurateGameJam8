@@ -16,9 +16,9 @@ MonoBehaviour:
     ways. If not the ones asking George to ask the question, then the ones who thought
     they could get away without letting their identities be known.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   dialogue: {fileID: 11400000, guid: 9fe4c86bb99c5a84f8a44545ca4bff6c, type: 2}
   dialogueOptions: []
   soundEffect:

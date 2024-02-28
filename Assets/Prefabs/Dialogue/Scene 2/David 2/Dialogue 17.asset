@@ -16,10 +16,10 @@ MonoBehaviour:
     the queen. I won\u2019t drag your name into it either, George. Between you and
     me, I have the feeling that he doesn\u2019t quite support me being our queen\u2019s
     secretary."
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: David
+  leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   dialogue: {fileID: 11400000, guid: 578bd79d3095aac44bd686565559094a, type: 2}
   dialogueOptions: []
   soundEffect:

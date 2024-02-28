@@ -15,9 +15,16 @@ MonoBehaviour:
   dialogueText: "David smiled, even grinned, at Mary\u2019s memorable remark. It
     wasn\u2019t like her to look back on such conversations. Better yet, it wasn\u2019t
     like her to remember them and smile."
-  leftCharacterName: David
-  leftCharacterImage: {fileID: 0}
-  rightCharacterName: Mary
-  rightCharacterImage: {fileID: 0}
+  leftCharacterName: 
+  leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
+  rightCharacterName: 
+  rightCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   dialogue: {fileID: 11400000, guid: f3d68ed809bdc5840acb0bdb6133cb0f, type: 2}
   dialogueOptions: []
+  soundEffect:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
