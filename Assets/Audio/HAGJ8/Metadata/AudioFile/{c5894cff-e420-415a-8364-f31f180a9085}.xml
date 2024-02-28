@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{708a57d0-52e6-4019-8f7d-07772783c7bc}">
+	<object class="AudioFile" id="{c5894cff-e420-415a-8364-f31f180a9085}">
 		<property name="assetPath">
-			<value>SFX/UI_BK.wav</value>
+			<value>SFX/Henry_13.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.19829931972789117</value>
+			<value>0.47530612244897957</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bca6cdb4-13eb-4a9e-b97e-4f06085f87a1}</destination>
