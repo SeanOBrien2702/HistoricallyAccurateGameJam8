@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogueText: Was that Lord Darnley that just passed? Surely he had no business
     here at Edinburgh.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
-  rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
+  rightCharacterName: Maitland
+  rightCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   dialogue: {fileID: 11400000, guid: 9ac270ef76175d744822bdda46f3547c, type: 2}
   dialogueOptions: []
   soundEffect:

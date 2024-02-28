@@ -18,7 +18,11 @@ MonoBehaviour:
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 0}
-  dialogueOptions: []
+  dialogueOptions:
+  - optionText: Mary
+    dialogue: {fileID: 11400000, guid: 3961a9e00ff0b8744bec050270d26657, type: 2}
+  - optionText: George
+    dialogue: {fileID: 11400000, guid: b95c5d55c7ec52a47a4e9a3dfa88e015, type: 2}
   soundEffect:
     Guid:
       Data1: 0

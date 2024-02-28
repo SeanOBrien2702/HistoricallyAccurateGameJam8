@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Dialogue 29
   m_EditorClassIdentifier: 
   dialogueText: Ah, yes, thank you for asking.
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: Ruthven
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   dialogue: {fileID: 11400000, guid: dff35e972611bbd4db5a405a639d7aa3, type: 2}
   dialogueOptions: []
   soundEffect:

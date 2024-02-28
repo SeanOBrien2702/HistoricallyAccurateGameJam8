@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: 'And I to you, Lord Ruthven. What can I do for you? '
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
-  rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
+  rightCharacterName: Henry
+  rightCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   dialogue: {fileID: 11400000, guid: da92186a3aaefa349b7396e682a56ebc, type: 2}
   dialogueOptions: []
   soundEffect:

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Dialogue 17
   m_EditorClassIdentifier: 
   dialogueText: Mary, my Queen, you are beyond the eye of beauty this evening.
-  leftCharacterName: Ruthven
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Ruthven
   rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: f7d05773687ee654b8ee8eb5ca250b60, type: 2}
   dialogueOptions: []

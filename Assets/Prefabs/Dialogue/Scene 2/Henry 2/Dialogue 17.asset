@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogueText: 'Instead, I will implore you to, potentially, and maybe even soon,
     sooner than you think, perhaps, acquire more responsibility from the crown? It
     would benefit more than just us. '
-  leftCharacterName: Ruthven
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Ruthven
   rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: 04cf24b39ec3d504eb5edb78084944e3, type: 2}
   dialogueOptions: []

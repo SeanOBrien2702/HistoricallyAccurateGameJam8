@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Dialogue 21
   m_EditorClassIdentifier: 
   dialogueText: Absurd.
-  leftCharacterName: Mary
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Mary
   rightCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   dialogue: {fileID: 11400000, guid: 6d7e016e72e5f7a478f4b1b90f1b71da, type: 2}
   dialogueOptions: []

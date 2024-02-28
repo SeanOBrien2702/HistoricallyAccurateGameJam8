@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogueText: 'I am certain that will come in due time. For now, resources and
     money are paramount and - '
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
-  rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
+  rightCharacterName: Henry
+  rightCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   dialogue: {fileID: 11400000, guid: 6db32ed4003602240adb0ce81ac37804, type: 2}
   dialogueOptions: []
   soundEffect:

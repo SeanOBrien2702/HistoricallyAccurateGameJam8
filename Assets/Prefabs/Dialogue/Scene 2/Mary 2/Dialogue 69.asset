@@ -16,7 +16,7 @@ MonoBehaviour:
     and tries to skirt you? The arrogance.
   leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Mary
   rightCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   dialogue: {fileID: 11400000, guid: 422f9e11ff851a94baca0691f6b9a32a, type: 2}
   dialogueOptions: []

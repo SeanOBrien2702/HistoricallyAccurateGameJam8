@@ -17,7 +17,7 @@ MonoBehaviour:
     Someone who had so much wealth and supposed power brought down to a mere conversation
     piece in a matter of sentences.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: dee3b45d851c21d4680e46364ba99a74, type: 2}

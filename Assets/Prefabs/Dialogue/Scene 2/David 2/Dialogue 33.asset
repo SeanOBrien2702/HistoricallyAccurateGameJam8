@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: If you are discussing Patrick Ruthven, then absolutely not. I will
     not return apology favors to that man.
-  leftCharacterName: Mary
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Mary
   rightCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   dialogue: {fileID: 11400000, guid: 643a0827e556c3a4e938a4223634e293, type: 2}
   dialogueOptions: []

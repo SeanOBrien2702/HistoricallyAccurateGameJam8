@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Dialogue 25
   m_EditorClassIdentifier: 
   dialogueText: I am frustrated, Lord Ruthven. I cannot help but feel wildly frustrated.
-  leftCharacterName: Maitland
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Maitland
   rightCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   dialogue: {fileID: 11400000, guid: 2d3d6bf7edf2aa7408d0cdb7a9cd3f16, type: 2}
   dialogueOptions: []

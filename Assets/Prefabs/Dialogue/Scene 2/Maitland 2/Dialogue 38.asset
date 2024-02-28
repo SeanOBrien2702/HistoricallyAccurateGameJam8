@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: 'Then why does the country feel stagnant? Why does court feel like
     it lasts all day? Tell me, William! '
-  leftCharacterName: Ruthven
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Ruthven
   rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: 89181f3582b032a468473235f8527a9d, type: 2}
   dialogueOptions: []

@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogueText: "I\u2019m sorry to interrupt you, Lord Ruthven, but wouldn\u2019t
     this be a discussion to have with my wife? "
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
-  rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
+  rightCharacterName: Henry
+  rightCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   dialogue: {fileID: 11400000, guid: 234db293b28dd5949ab587ee91ae2b2d, type: 2}
   dialogueOptions: []
   soundEffect:

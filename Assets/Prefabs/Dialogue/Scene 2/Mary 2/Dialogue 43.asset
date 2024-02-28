@@ -16,7 +16,7 @@ MonoBehaviour:
     I make the decision on defense placement. Just like how I made the decision on
     your budget for the year. Or on your till distribution. Or on the resource allocation
     I offer to you. "
-  leftCharacterName: 
+  leftCharacterName: Mary
   leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}

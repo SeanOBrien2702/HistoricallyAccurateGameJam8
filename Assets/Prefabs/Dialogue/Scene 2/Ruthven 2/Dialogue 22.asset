@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: Oh, of course, without a doubt. I am talking about more...strategic
     matters. Surely your wife knows you are more than capable of such things. Correct?
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: Ruthven
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   dialogue: {fileID: 11400000, guid: 207fbafa9e5381640ae56e1ba7ee0734, type: 2}
   dialogueOptions: []
   soundEffect:

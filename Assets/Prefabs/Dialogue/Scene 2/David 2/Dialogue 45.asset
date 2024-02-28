@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: That brazen man. I just met with him myself. He comes to me directly
     and tries to skirt you? The arrogance.
-  leftCharacterName: Mary
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Mary
   rightCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   dialogue: {fileID: 11400000, guid: c0f339d8510b996419c9a734e0a268cf, type: 2}
   dialogueOptions: []

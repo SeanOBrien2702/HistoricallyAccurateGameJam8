@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Dialogue 59
   m_EditorClassIdentifier: 
   dialogueText: Well, he is my friend. I do trust him, after all.
-  leftCharacterName: Henry
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Henry
   rightCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   dialogue: {fileID: 11400000, guid: 0975590b566281a4a92d9fbbdeb24e4f, type: 2}
   dialogueOptions: []

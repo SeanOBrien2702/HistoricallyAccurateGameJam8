@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Dialogue 3
   m_EditorClassIdentifier: 
   dialogueText: "Lord Darnley, welcome. I\u2019m glad to see you."
-  leftCharacterName: Ruthven
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Ruthven
   rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: 11af544ff3101d540ad09b353172cc85, type: 2}
   dialogueOptions: []

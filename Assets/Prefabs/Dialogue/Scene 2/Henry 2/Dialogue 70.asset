@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: So, what does that mean? Does he have more power than the lords of
     court if he can influence you in such a way?
-  leftCharacterName: Henry
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Henry
   rightCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   dialogue: {fileID: 11400000, guid: 18fccb19ea1a2c14685aeb99cdd8980d, type: 2}
   dialogueOptions: []

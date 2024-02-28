@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Dialogue 13
   m_EditorClassIdentifier: 
   dialogueText: 'If anything, I apologize for having you make the walk to Edinburgh. '
-  leftCharacterName: Ruthven
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Ruthven
   rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: d7ca2ee7b1852d641ba7370805a17e85, type: 2}
   dialogueOptions: []

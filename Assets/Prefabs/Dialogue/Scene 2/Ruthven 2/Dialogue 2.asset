@@ -16,7 +16,7 @@ MonoBehaviour:
     hid behind their hand? Someone said something new? This was the lord that had
     failed in front of her majesty. '
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: 1c5e7a2bc1488da42a4ba01bd16e3389, type: 2}

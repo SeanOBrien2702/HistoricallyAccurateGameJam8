@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogueText: Lord Darnley was his. The deception had been completed. Now all that
     remained was for him to trot back to Holyrood and let the doubt fester.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   dialogue: {fileID: 11400000, guid: fd845dc3c146c5e4eaa186d459258bec, type: 2}
   dialogueOptions: []
   soundEffect:

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "I\u2019m sure you would. Your till has been prosperous as of late,
     according to my books."
-  leftCharacterName: Maitland
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Maitland
   rightCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   dialogue: {fileID: 11400000, guid: 12498ae3a635ec240ad4c8aa4b1fecd3, type: 2}
   dialogueOptions: []

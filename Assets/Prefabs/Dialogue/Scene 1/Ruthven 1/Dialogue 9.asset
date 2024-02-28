@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogueText: Because all we see are lords asking the world of her! It has taken
     some time, but I know how to advance with her. For both of us, you must trust
     me.
-  leftCharacterName: Ruthven
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Ruthven
   rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: afa10a61e96c46748877f15b236cba46, type: 2}
   dialogueOptions: []
