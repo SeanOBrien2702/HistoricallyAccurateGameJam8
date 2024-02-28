@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 92
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: Who would you like to follow?
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 

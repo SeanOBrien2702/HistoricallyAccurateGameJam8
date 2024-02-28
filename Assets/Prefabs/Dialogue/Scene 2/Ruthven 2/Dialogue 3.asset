@@ -16,7 +16,7 @@ MonoBehaviour:
     held more power than he ever would. He had been a politician for longer than
     she had been alive, yet he had to bend to her discourse.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: 422e95df7f4afae48b9cd69bcdf02126, type: 2}

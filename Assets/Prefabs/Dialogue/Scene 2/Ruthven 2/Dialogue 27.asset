@@ -16,7 +16,7 @@ MonoBehaviour:
     doubt. He needed real allies. Not some child who was too young to see he had
     been taken advantage of.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: e3f263e0e3a98fe4db48f5be05145ef4, type: 2}

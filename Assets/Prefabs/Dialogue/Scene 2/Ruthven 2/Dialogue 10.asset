@@ -15,10 +15,10 @@ MonoBehaviour:
   dialogueText: "Oh, my apologies, Lord Darnley. I was under the impression you were
     the military mind now that you had been brought into the fold. The Stuart name
     precedes you; I shouldn\u2019t have assumed."
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: Ruthven
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   dialogue: {fileID: 11400000, guid: 16b4c46988ef9cf4987f5237d6bfcce4, type: 2}
   dialogueOptions: []
   soundEffect:

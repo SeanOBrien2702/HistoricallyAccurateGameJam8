@@ -16,7 +16,7 @@ MonoBehaviour:
     Patrick\u2019s efforts could not go on his own. He needed assistance. Where better
     to start acquiring information than with the one who shares her bed?"
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: f1c026db10da2b6498a289a433660eb4, type: 2}

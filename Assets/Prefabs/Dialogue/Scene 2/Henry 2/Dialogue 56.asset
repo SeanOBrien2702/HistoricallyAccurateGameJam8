@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "No, I don\u2019t think so. Well, actually - I met with George earlier
     today. He had some interesting questions that I am sure have no grounds for attention."
-  leftCharacterName: Henry
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Henry
   rightCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   dialogue: {fileID: 11400000, guid: 7b1dbaa43d0fc5d44af43d0770b55682, type: 2}
   dialogueOptions: []

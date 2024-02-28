@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: Where did you go off to when your wife is still here? Not getting
     lost in the streets, I hope.
-  leftCharacterName: George
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
-  rightCharacterName: 
+  rightCharacterName: George
   rightCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   dialogue: {fileID: 11400000, guid: 4337eee0265d46043a0f0e7e233f042d, type: 2}
   dialogueOptions: []

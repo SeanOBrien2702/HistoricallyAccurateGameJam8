@@ -16,7 +16,7 @@ MonoBehaviour:
     not return apology favors to that man.
   leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Mary
   rightCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   dialogue: {fileID: 11400000, guid: 23c15ee441b719c458a807740e1791d3, type: 2}
   dialogueOptions: []

@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogueText: "My friend, I know she can be stubborn, we\u2019ve seen her time
     and again on the floor of court refuse others, but I assure you she can be reasonable
     if approached with simpler requests."
-  leftCharacterName: Ruthven
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Ruthven
   rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: 63764c7df2ef6f040b6aac3d38bdc1bd, type: 2}
   dialogueOptions: []

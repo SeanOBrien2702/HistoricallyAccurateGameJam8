@@ -16,10 +16,10 @@ MonoBehaviour:
     existed. But the clock had been wound. It was not correct, it was not set, and
     it was not ticking. But it had been wound. '
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: d36dbfe0ce3c65247bc37d921aa126dd, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

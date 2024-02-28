@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Dialogue 52
   m_EditorClassIdentifier: 
   dialogueText: It must always seem that way from your seat.
-  leftCharacterName: Henry
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Henry
   rightCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   dialogue: {fileID: 11400000, guid: 12a7fd81fca8e5845bcefa0a06bdfcbf, type: 2}
   dialogueOptions: []

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Dialogue 19
   m_EditorClassIdentifier: 
   dialogueText: "Pay no mind to that, it was one conversation. I had already forgotten.\r"
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: Ruthven
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   dialogue: {fileID: 11400000, guid: 1cb3e66a0c5c7384ea5f8d5ce832c537, type: 2}
   dialogueOptions: []
   soundEffect:

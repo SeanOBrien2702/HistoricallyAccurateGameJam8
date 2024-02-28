@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogueText: "My Queen, this is nothing compared to the life you\u2019ve provided
     for me. I would make a hundred weddings for you. It would be easy compared to
     the onslaught you see from your courtsmen."
-  leftCharacterName: David
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
-  rightCharacterName: 
+  rightCharacterName: David
   rightCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   dialogue: {fileID: 11400000, guid: 1ef013a9b1b6e234c94e968999a58426, type: 2}
   dialogueOptions: []

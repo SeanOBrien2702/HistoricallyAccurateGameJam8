@@ -16,9 +16,9 @@ MonoBehaviour:
     In fact, it might do you good if you distanced yourself. Henry could come for
     your throat should he think, perhaps, you were closer to the queen than either
     of you let on.
-  leftCharacterName: Maitland
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Maitland
   rightCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   dialogue: {fileID: 11400000, guid: 33d8fd8646ec9f143bd7fd69d2827015, type: 2}
   dialogueOptions: []

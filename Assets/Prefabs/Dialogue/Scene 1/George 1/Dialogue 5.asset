@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Dialogue 5
   m_EditorClassIdentifier: 
   dialogueText: You embarrass me!
-  leftCharacterName: Henry
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Henry
   rightCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   dialogue: {fileID: 11400000, guid: 2e18bdc9aa5db8149a71534c711a8698, type: 2}
   dialogueOptions: []

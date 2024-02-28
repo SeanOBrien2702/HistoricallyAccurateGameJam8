@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Dialogue 28
   m_EditorClassIdentifier: 
   dialogueText: "I\u2019m sure."
-  leftCharacterName: Ruthven
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Ruthven
   rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: 162488b1c84eb5748b4fbf680a8c5aae, type: 2}
   dialogueOptions: []

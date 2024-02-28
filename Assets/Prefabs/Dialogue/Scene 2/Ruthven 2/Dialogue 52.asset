@@ -12,13 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 52
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: Who would you like to follow?
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 0}
-  dialogueOptions: []
+  dialogueOptions:
+  - optionText: Ruthven
+    dialogue: {fileID: 11400000, guid: 1bc5bed42901a8a48a3291ff58d84468, type: 2}
+  - optionText: Maitland
+    dialogue: {fileID: 11400000, guid: 1b3baa764a80d064cb1bb40eb006c706, type: 2}
   soundEffect:
     Guid:
       Data1: 0

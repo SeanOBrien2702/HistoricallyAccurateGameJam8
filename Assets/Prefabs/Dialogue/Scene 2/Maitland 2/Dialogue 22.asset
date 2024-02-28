@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Dialogue 22
   m_EditorClassIdentifier: 
   dialogueText: Ah, yes, thank you for asking.
-  leftCharacterName: Ruthven
+  leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
-  rightCharacterName: 
+  rightCharacterName: Ruthven
   rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: c722e4ab68c079548b2b49925dc1d48c, type: 2}
   dialogueOptions: []
