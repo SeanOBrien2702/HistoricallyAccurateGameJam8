@@ -1,3 +1,4 @@
+using FMODUnity;
 using System.Collections;
 using UnityEngine;
 
@@ -8,6 +9,9 @@ public class GameUIController : MonoBehaviour
 
     [SerializeField] Transform raisedPosition;
     [SerializeField] Transform loweredPotation;
+
+    [SerializeField] EventReference openHistorySound;
+    [SerializeField] EventReference closeHistorySound;
 
     float historySpeed = 0.4f;
     bool isLowered = true;
@@ -35,6 +39,15 @@ public class GameUIController : MonoBehaviour
         StartCoroutine(LerpPosition(position.position, historyPanel, historySpeed));
         StartCoroutine(LerpPosition(position.position, historyButton, historySpeed));
         isLowered = !isLowered;
+        if (isLowered)
+        {
+
+            AudioController.Instance.PlayOneShot(openHistorySound);
+        }
+        else
+        {
+            AudioController.Instance.PlayOneShot(closeHistorySound);
+        }
     }
 
     IEnumerator LerpPosition(Vector3 targetPosition, Transform item, float duration)

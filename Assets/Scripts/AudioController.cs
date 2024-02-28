@@ -2,7 +2,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using FMOD.Studio;
 using FMODUnity;
-
+using System;
+using FMOD;
 
 public class AudioController : MonoBehaviour
 {
@@ -156,5 +157,13 @@ public class AudioController : MonoBehaviour
     {
         musicVolume = newMusicVolume;
         backgroundMusic[currentMusic].setVolume(musicVolume);
+    }
+
+    internal void PlayOneShot(EventReference sound)
+    {
+        var instance = RuntimeManager.CreateInstance(sound);
+        instance.setVolume(soundVolume);
+        instance.start();
+        instance.release();
     }
 }

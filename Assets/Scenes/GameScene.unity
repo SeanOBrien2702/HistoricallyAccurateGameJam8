@@ -403,6 +403,7 @@ GameObject:
   - component: {fileID: 91046600}
   - component: {fileID: 91046599}
   - component: {fileID: 91046598}
+  - component: {fileID: 91046601}
   m_Layer: 5
   m_Name: SettingsButton
   m_TagString: Untagged
@@ -524,6 +525,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 91046596}
   m_CullTransparentMesh: 1
+--- !u!114 &91046601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91046596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98ecafac8463984fb49d615fa274bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonClick:
+    Guid:
+      Data1: 1325560432
+      Data2: 1175703206
+      Data3: -371182463
+      Data4: 865318581
+    Path: event:/SFX/UI/UI_FW
 --- !u!1 &199168291
 GameObject:
   m_ObjectHideFlags: 0
@@ -1193,6 +1213,20 @@ MonoBehaviour:
   historyPanel: {fileID: 1761535274}
   raisedPosition: {fileID: 1409963483}
   loweredPotation: {fileID: 808088195}
+  openHistorySound:
+    Guid:
+      Data1: -113899142
+      Data2: 1223378364
+      Data3: -1079944550
+      Data4: -666577379
+    Path: event:/SFX/UI/UI_Chapter_Change
+  closeHistorySound:
+    Guid:
+      Data1: -113899142
+      Data2: 1223378364
+      Data3: -1079944550
+      Data4: -666577379
+    Path: event:/SFX/UI/UI_Chapter_Change
 --- !u!1 &808088194
 GameObject:
   m_ObjectHideFlags: 0
@@ -1540,6 +1574,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   historyController: {fileID: 1673435551}
+  nexDialogueSound:
+    Guid:
+      Data1: -599758452
+      Data2: 1135915295
+      Data3: -1487277662
+      Data4: -1471271420
+    Path: event:/SFX/UI/UI_Menu_change
   textSpeed: 0.025
   dialogueText: {fileID: 384063359}
   startingDialogue: {fileID: 11400000, guid: 55c8650a254e3334caa82efacb7ad61a, type: 2}
@@ -1856,7 +1897,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 199168293}
   m_HandleRect: {fileID: 199168292}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 1
   m_OnValueChanged:

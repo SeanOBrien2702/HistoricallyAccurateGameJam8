@@ -1,3 +1,4 @@
+using FMODUnity;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -12,6 +13,7 @@ public class DialogueController : MonoBehaviour
     public static event System.Action<Dialogue> OnNewDialogue = delegate { };
     public static event System.Action<Dialogue> OnDialogueEnd = delegate { };
     [SerializeField] HistoryController historyController;
+    [SerializeField] EventReference nexDialogueSound;
     [Header("Dialogue")]
     [SerializeField] float textSpeed;
     [SerializeField] TextMeshProUGUI dialogueText;
@@ -108,7 +110,7 @@ public class DialogueController : MonoBehaviour
         currentDialogue = dialogue;
         OnNewDialogue?.Invoke(dialogue);
         UpdateUI(dialogue);
-
+        AudioController.Instance.PlayOneShot(nexDialogueSound);
 
         foreach (char character in dialogue.DialogueText)
         {
