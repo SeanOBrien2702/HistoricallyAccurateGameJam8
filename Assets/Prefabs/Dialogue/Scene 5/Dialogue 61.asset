@@ -12,12 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 61
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: "Henry Stuart exhibited erratic behavior after David\u2019s murder.
+    Supposedly, Mary had resolved her differences with Henry after the event, but
+    that did not help him the following year. He was murdered in 1567 due to an explosion
+    within the house he was in. The culprit of the murder remains a mystery to this
+    day."
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 93ca28f2e9ffb8e4b9b6949ec6fdfca5, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

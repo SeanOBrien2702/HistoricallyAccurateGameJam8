@@ -16,7 +16,7 @@ MonoBehaviour:
     her private residence until the summer. She needed to maintain relations all
     the same."
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: cecb0d21fef114cc59761d31adf71948, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: f29f1d295eddca14bb1f6945ccc04ff8, type: 2}

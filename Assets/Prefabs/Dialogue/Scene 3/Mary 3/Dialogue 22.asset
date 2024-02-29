@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: You are too kind. You are always too kind to me.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 21300000, guid: dee7406a7223a4470b740b15173b1995, type: 3}
+  leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   rightCharacterName: David
   rightCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   dialogue: {fileID: 11400000, guid: 11536a6280eef8e40ba73a64fdd137c9, type: 2}

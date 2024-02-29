@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogueText: 'She had him. He supported her entirely, and that was enough for
     Mary. However, even with this reassurance, she felt the need to go back to Holyrood. '
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: cecb0d21fef114cc59761d31adf71948, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   dialogue: {fileID: 11400000, guid: e73fe4581fd0ca645ab417cd7c369906, type: 2}
   dialogueOptions: []
   soundEffect:

@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogueText: 'You have done enough. '
   leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
-  rightCharacterName: William
+  rightCharacterName: Maitland
   rightCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   dialogue: {fileID: 11400000, guid: 053f8d12d08b61142b7641d2c599ddc7, type: 2}
   dialogueOptions: []

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Dialogue 40
   m_EditorClassIdentifier: 
   dialogueText: 'George, listen to me - '
-  leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterName: Mary
+  leftCharacterImage: {fileID: 21300000, guid: cecb0d21fef114cc59761d31adf71948, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   dialogue: {fileID: 11400000, guid: 64c904cf078cbac4897246542f87f340, type: 2}
   dialogueOptions: []
   soundEffect:

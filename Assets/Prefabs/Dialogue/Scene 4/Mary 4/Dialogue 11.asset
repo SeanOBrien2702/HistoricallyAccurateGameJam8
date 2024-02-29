@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogueText: "William Maitland, other lords as well, won\u2019t be won with favors
     or gifts. He just spoke with me at Holyrood after your announcement."
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
-  rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: cecb0d21fef114cc59761d31adf71948, type: 3}
+  rightCharacterName: David
+  rightCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   dialogue: {fileID: 11400000, guid: 1aa0bee5fa0c2d44da4f9af93470ac96, type: 2}
   dialogueOptions: []
   soundEffect:

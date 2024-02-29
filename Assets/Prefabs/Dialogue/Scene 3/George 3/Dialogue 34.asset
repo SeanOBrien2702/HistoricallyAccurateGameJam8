@@ -16,8 +16,8 @@ MonoBehaviour:
     Can I help you?
   leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
-  rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterName: Ruthven
+  rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: 6f6e5af4528877c49aea5efbde7435bd, type: 2}
   dialogueOptions: []
   soundEffect:

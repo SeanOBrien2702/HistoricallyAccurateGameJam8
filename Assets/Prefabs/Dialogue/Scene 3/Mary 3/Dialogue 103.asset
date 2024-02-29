@@ -16,7 +16,7 @@ MonoBehaviour:
     by one, they made her blood rise. The only man in Scotland that calmed her had
     no land. No subjects. No money. No lordship.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 21300000, guid: dee7406a7223a4470b740b15173b1995, type: 3}
+  leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: ca062c9565408984db5ccd99ccc9caa6, type: 2}

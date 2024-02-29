@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogueText: With a pinned smile and weight off her shoulders, she strolled back
     into Holyrood and claimed her chambers. Nothing could pull her back to reality.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 21300000, guid: dee7406a7223a4470b740b15173b1995, type: 3}
+  leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: 5e888b70117f78b47b5ad2e680e6078a, type: 2}

@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 35
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: The floorboards were as cold as the winter had been. He had wondered
+    when the winter would end, yet it seemed as if it were here to stay.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
+  dialogue: {fileID: 11400000, guid: d1e5ebe573434804b9a0c5117d90b257, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

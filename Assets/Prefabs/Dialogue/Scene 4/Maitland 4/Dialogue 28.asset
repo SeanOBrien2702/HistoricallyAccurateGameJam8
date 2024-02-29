@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogueText: "But it was William\u2019s duty to serve. He had no loyalty to David
     Rizzio, but the queen was still his queen, no matter who she loved."
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: c660260aaa774ce4691ca39dc63b44e6, type: 2}

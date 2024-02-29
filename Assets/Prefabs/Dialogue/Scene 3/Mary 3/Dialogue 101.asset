@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogueText: "Henry\u2019s interests are my own. If you cannot parlay with him,
     then I have issue with the topic as well."
   leftCharacterName: 
-  leftCharacterImage: {fileID: 21300000, guid: dee7406a7223a4470b740b15173b1995, type: 3}
+  leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   rightCharacterName: George
   rightCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   dialogue: {fileID: 11400000, guid: 0e2cf535dee41704789fcc307309f341, type: 2}

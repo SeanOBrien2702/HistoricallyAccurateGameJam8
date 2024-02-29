@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogueText: Tell me, my queen, where were you before you came back to Holyrood
     this evening?
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
-  rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: cecb0d21fef114cc59761d31adf71948, type: 3}
+  rightCharacterName: George
+  rightCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   dialogue: {fileID: 11400000, guid: 181d1923ad5959d428d20dda84fe4ccb, type: 2}
   dialogueOptions: []
   soundEffect:

@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogueText: He turned to leave her. She watched his back as he took one step,
     two steps, three, four until she could not hold in her shout any longer.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: cecb0d21fef114cc59761d31adf71948, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: 8e5e5b9a48c37a642857a23d775e41e3, type: 2}

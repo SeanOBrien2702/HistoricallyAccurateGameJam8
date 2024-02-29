@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 62
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: Patrick Ruthven remained a lord of Scottish court. He influenced
+    military affairs for a short while until his death that very same summer in 1566.
+    Although it is assumed the death was due to natural causes, there is speculation
+    that his death was due to poison.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 867bd4ab8f50dc94694b999dc1c35d6d, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 1
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: The sun had set. The subjects had dispersed from Holyrood. Lords
+    and staff alike had left this place to its solace.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 9ef5c3cc97265964e8e69e6c80f813ac, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

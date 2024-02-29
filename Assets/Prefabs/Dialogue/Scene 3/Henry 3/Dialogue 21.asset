@@ -16,7 +16,7 @@ MonoBehaviour:
   leftCharacterName: Henry
   leftCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 21300000, guid: dee7406a7223a4470b740b15173b1995, type: 3}
+  rightCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   dialogue: {fileID: 11400000, guid: 7fbabd25b0f649d4c89685eb4088600c, type: 2}
   dialogueOptions: []
   soundEffect:

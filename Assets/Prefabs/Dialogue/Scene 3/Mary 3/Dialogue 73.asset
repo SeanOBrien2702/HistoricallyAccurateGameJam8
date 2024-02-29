@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogueText: "Henry, visibly disgusted with Mary\u2019s directness, turned in
     a huff and slammed her chamber door behind him."
   leftCharacterName: 
-  leftCharacterImage: {fileID: 21300000, guid: dee7406a7223a4470b740b15173b1995, type: 3}
+  leftCharacterImage: {fileID: 21300000, guid: 5e399c5c2cb9b4457af4fcd4822f9248, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: c6efdc26b901c6941b44cc944aae9e18, type: 2}
