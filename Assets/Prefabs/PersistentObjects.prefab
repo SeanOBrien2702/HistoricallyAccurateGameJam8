@@ -65,6 +65,20 @@ MonoBehaviour:
       Data3: 529938051
       Data4: 2043067818
     Path: event:/01-Happy-uplifting
+  easy:
+    Guid:
+      Data1: -157267144
+      Data2: 1197535398
+      Data3: 897731263
+      Data4: 1688806213
+    Path: event:/03-Easy
+  pressure:
+    Guid:
+      Data1: 559864002
+      Data2: 1211726385
+      Data3: -1260132687
+      Data4: -876509953
+    Path: event:/02-Pressure
   commanding:
     Guid:
       Data1: 168806220

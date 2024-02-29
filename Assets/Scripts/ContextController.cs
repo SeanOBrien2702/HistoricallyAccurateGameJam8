@@ -28,6 +28,7 @@ public class ContextController : MonoBehaviour
             {
                 OnNewContext?.Invoke(context);
                 background.sprite = context.BackgroundImage;
+                break;
             }
         }
     }

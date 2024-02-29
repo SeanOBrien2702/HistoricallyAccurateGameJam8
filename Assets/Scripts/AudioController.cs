@@ -9,6 +9,8 @@ public class AudioController : MonoBehaviour
 {
     [Header("Music")]
     [SerializeField] EventReference happy;
+    [SerializeField] EventReference easy;
+    [SerializeField] EventReference pressure;
     [SerializeField] EventReference commanding;
     [SerializeField] EventReference scheme;
 
@@ -47,8 +49,8 @@ public class AudioController : MonoBehaviour
     void Start()
     {
         backgroundMusic.Add(RuntimeManager.CreateInstance(happy));
-        backgroundMusic.Add(RuntimeManager.CreateInstance(happy));
-        backgroundMusic.Add(RuntimeManager.CreateInstance(happy));
+        backgroundMusic.Add(RuntimeManager.CreateInstance(pressure));
+        backgroundMusic.Add(RuntimeManager.CreateInstance(easy));   
         backgroundMusic.Add(RuntimeManager.CreateInstance(commanding));
         backgroundMusic.Add(RuntimeManager.CreateInstance(scheme));
         backgroundMusic[0].setParameterByName(GetStatusString(0), 0);
