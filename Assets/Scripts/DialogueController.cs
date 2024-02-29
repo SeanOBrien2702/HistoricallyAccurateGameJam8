@@ -18,7 +18,6 @@ public class DialogueController : MonoBehaviour
     [SerializeField] float textSpeed;
     [SerializeField] TextMeshProUGUI dialogueText;
     [SerializeField] Dialogue startingDialogue;
-    float fastTextSpeed = 0.0001f;
     bool isReading = false;
     bool isFastForward = false;
     [Header("Characters")]
@@ -115,11 +114,7 @@ public class DialogueController : MonoBehaviour
         foreach (char character in buffer)
         {
             dialogueText.text += character;
-            if (isFastForward)
-            {
-                yield return new WaitForSeconds(fastTextSpeed);
-            }
-            else
+            if (!isFastForward)
             {
                 yield return new WaitForSeconds(textSpeed);
             }
