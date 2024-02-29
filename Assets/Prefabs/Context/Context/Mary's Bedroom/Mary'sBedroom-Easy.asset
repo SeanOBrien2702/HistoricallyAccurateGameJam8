@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: daf09690688837a4697277ac29e368e4, type: 3}
-  m_Name: Mary'sPrivateResidence-Easy
+  m_Name: Mary'sBedroom-Easy
   m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 21300000, guid: bce7e7bea125f49a2898466d17351a65, type: 3}
-  dialogues: []
+  backgroundImage: {fileID: 21300000, guid: cf61f0d23c4914087b1dd2abd749320a, type: 3}
+  dialogues:
+  - {fileID: 11400000, guid: 1419794abd640054bb3df62906e8f8f4, type: 2}
+  - {fileID: 11400000, guid: a14b7f3ba209d8e47b6b195493065e99, type: 2}
   backgroundMusic: 2
   musicIntensity: -1

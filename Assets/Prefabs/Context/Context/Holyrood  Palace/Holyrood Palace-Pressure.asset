@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Holyrood Palace-Pressure
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 21300000, guid: 3ee8757b876a048769b1070773bfc232, type: 3}
-  dialogues: []
+  dialogues:
+  - {fileID: 11400000, guid: f07c47579b68f204f9bb1c0979bbad5b, type: 2}
+  - {fileID: 11400000, guid: f29f1d295eddca14bb1f6945ccc04ff8, type: 2}
+  - {fileID: 11400000, guid: 3215369ed20ce9e48ac82f25988c8af5, type: 2}
+  - {fileID: 11400000, guid: d1bdf33d81fa4694dab4340906efa59c, type: 2}
+  - {fileID: 11400000, guid: b95c5d55c7ec52a47a4e9a3dfa88e015, type: 2}
+  - {fileID: 11400000, guid: baaa226a05193ef449b1549a63326baa, type: 2}
   backgroundMusic: 1
   musicIntensity: -1

@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Edinburgh Castle Dark-Pressure
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 21300000, guid: 22728ebbb002f46d2bdec477cad41878, type: 3}
-  dialogues: []
+  dialogues:
+  - {fileID: 11400000, guid: dee3b45d851c21d4680e46364ba99a74, type: 2}
+  - {fileID: 11400000, guid: 8998a4e3855cfe04b97e863ea2f440d8, type: 2}
+  - {fileID: 11400000, guid: 4f9e3abab0be3c4489085ef07e6b5d9f, type: 2}
+  - {fileID: 11400000, guid: 1bc5bed42901a8a48a3291ff58d84468, type: 2}
+  - {fileID: 11400000, guid: 1b3baa764a80d064cb1bb40eb006c706, type: 2}
   backgroundMusic: 1
   musicIntensity: -1

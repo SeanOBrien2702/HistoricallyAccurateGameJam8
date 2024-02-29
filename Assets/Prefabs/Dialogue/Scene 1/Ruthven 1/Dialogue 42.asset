@@ -22,8 +22,8 @@ MonoBehaviour:
   dialogueOptions: []
   soundEffect:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -2119382333
+      Data2: 1310606103
+      Data3: -902853744
+      Data4: -1160266164
+    Path: event:/SFX/Ambiance/BG_murmuring

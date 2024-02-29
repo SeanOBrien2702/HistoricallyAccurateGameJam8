@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: daf09690688837a4697277ac29e368e4, type: 3}
-  m_Name: Mary'sPrivateResidence-Commanding
+  m_Name: Mary'sBedroom-Happy
   m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 21300000, guid: 5dffd5dd773cb4b74a48c24e1a4bdee1, type: 3}
+  backgroundImage: {fileID: 21300000, guid: cf61f0d23c4914087b1dd2abd749320a, type: 3}
   dialogues: []
-  backgroundMusic: 3
+  backgroundMusic: 0
   musicIntensity: -1
