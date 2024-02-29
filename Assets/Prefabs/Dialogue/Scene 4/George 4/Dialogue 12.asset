@@ -18,7 +18,7 @@ MonoBehaviour:
   leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   rightCharacterName: Mary
-  rightCharacterImage: {fileID: 21300000, guid: dee7406a7223a4470b740b15173b1995, type: 3}
+  rightCharacterImage: {fileID: 21300000, guid: cecb0d21fef114cc59761d31adf71948, type: 3}
   dialogue: {fileID: 11400000, guid: 260ddca356236a3469aa17c88ac13d8b, type: 2}
   dialogueOptions: []
   soundEffect:

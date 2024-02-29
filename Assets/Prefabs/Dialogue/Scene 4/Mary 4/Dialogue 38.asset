@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "It doesn\u2019t matter to me. Not anymore."
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
-  rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: cecb0d21fef114cc59761d31adf71948, type: 3}
+  rightCharacterName: George
+  rightCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   dialogue: {fileID: 11400000, guid: 7fa933c81d6891e4f98130a181845962, type: 2}
   dialogueOptions: []
   soundEffect:

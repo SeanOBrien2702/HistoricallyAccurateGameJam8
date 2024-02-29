@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogueText: Nothing. Not tonight. Live your life, Lord Darnley. Enjoy the thought
     that you will have an heir soon. No harm will come to the queen. For your sake.
     That is what I care about.
-  leftCharacterName: Patrick
+  leftCharacterName: Ruthven
   leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}

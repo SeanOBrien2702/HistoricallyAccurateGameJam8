@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogueText: 'William sat alone in Edinburgh Castle. He pondered and thought and
     anguished over his country. '
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: a497d3f172b68b74ea9385b8f38f8fe8, type: 2}

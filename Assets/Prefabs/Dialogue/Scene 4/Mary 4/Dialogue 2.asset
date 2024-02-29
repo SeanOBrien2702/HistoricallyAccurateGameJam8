@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogueText: 'After her announcement at court, she had retreated to her private
     residence to ride the wave of positivity and continue preparations for the baby. '
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: cecb0d21fef114cc59761d31adf71948, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: b8225780f29dbdd4bb962a5142ae16a3, type: 2}

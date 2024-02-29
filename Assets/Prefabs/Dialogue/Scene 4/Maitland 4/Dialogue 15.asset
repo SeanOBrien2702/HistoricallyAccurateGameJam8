@@ -17,9 +17,9 @@ MonoBehaviour:
     had seen through David Rizzio. He had seen through the Queen. He had seen through
     this farce.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   dialogue: {fileID: 11400000, guid: f2d01df16d42f5c4da51617c60760718, type: 2}
   dialogueOptions: []
   soundEffect:

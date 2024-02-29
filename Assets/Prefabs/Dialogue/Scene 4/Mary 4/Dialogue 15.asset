@@ -16,9 +16,9 @@ MonoBehaviour:
     the same, she loved his passion, his mind, his cunning. If one man could navigate
     court while she was preparing for her child, then it was David Rizzio.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: cecb0d21fef114cc59761d31adf71948, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
   dialogue: {fileID: 11400000, guid: e5f135192e4a51645add36f34738b37e, type: 2}
   dialogueOptions: []
   soundEffect:

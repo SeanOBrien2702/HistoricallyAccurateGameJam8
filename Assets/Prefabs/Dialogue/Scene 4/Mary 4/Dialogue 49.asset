@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogueText: 'Who were you speaking with before you returned? Who was the one
     you sought company with after your announcement in court? '
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
-  rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: cecb0d21fef114cc59761d31adf71948, type: 3}
+  rightCharacterName: George
+  rightCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   dialogue: {fileID: 11400000, guid: 1d1e0a0b75e433c4b881fe9ffb3d8800, type: 2}
   dialogueOptions: []
   soundEffect:

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: William shook his head and turned away slowly.
   leftCharacterName: 
-  leftCharacterImage: {fileID: 0}
+  leftCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
   dialogue: {fileID: 11400000, guid: 8ccc6c66015ad88469a2a7d8eb91c173, type: 2}

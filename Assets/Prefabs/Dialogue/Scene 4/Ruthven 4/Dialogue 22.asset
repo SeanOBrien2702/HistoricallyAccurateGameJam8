@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "We can discuss later. For now, I want you to know. Change is going
     to come. You want things to change, don\u2019t you?"
-  leftCharacterName: Patrick
+  leftCharacterName: Ruthven
   leftCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   rightCharacterName: 
   rightCharacterImage: {fileID: 21300000, guid: 5e5cd50ac6e2b4276b356edddb821e6d, type: 3}
