@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 19
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: "David took a seat next to Mary\u2019s bed. "
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
+  dialogue: {fileID: 11400000, guid: 72d494eb816ef5445b9f7fe19cf8c6a6, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

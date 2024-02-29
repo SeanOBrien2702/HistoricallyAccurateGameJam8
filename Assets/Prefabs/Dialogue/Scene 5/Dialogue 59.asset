@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 59
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: "George Douglas continued to be relevant in political and military
+    affairs for Scotland and proved to be a prominent member of court. His relationship
+    with Henry Stuart suffered after David Rizzio\u2019s murder, and the two began
+    to grow apart. He passed away in 1588 due to natural causes."
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: 620fb217e4d12ae49aa0dba56f4ef14d, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:

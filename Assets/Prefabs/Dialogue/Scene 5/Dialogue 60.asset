@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e86f308d5d2004c85d0bd5a000d8c5, type: 3}
   m_Name: Dialogue 60
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: William Maitland continued to serve Mary, and eventually her son,
+    James, as their secretary of state. His loyalty to Scotland prevailed, and as
+    a true civil servant, acted as honestly as he could for the crown from then on.
+    He died in 1573 due to illness.
   leftCharacterName: 
   leftCharacterImage: {fileID: 0}
   rightCharacterName: 
   rightCharacterImage: {fileID: 0}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: e1edf8d5a7980514f8033830edfe0b48, type: 2}
   dialogueOptions: []
   soundEffect:
     Guid:
