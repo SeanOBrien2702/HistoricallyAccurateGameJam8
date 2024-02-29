@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogueText: She is pregnant.
   leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
-  rightCharacterName: William
+  rightCharacterName: Maitland
   rightCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   dialogue: {fileID: 11400000, guid: 516033d1b7a3d0f4bb3d411ef548fdc3, type: 2}
   dialogueOptions: []

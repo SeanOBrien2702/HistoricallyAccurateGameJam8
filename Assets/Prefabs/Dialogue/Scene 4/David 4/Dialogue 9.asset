@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogueText: "I have a question about the queen\u2019s announcement earlier today."
   leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: 0b70ba12539754e868b60b79ad9ff63c, type: 3}
-  rightCharacterName: William
+  rightCharacterName: Maitland
   rightCharacterImage: {fileID: 21300000, guid: ced29bd60e10c45b5bc115064051670c, type: 3}
   dialogue: {fileID: 11400000, guid: 5a36fe51c77652c49b786a2b0284ebac, type: 2}
   dialogueOptions: []

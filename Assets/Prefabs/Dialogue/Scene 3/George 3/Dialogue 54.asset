@@ -16,8 +16,8 @@ MonoBehaviour:
     measures. Final measures for slander. Do you understand?
   leftCharacterName: 
   leftCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
-  rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterName: Ruthven
+  rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: 492310b2ca1d9c64684a57fe98e09835, type: 2}
   dialogueOptions: []
   soundEffect:

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Dialogue 51
   m_EditorClassIdentifier: 
   dialogueText: "Surely he wouldn\u2019t..."
-  leftCharacterName: 
+  leftCharacterName: George
   leftCharacterImage: {fileID: 21300000, guid: d490387d5ec9c4c03888245b2e218ef0, type: 3}
   rightCharacterName: 
-  rightCharacterImage: {fileID: 0}
+  rightCharacterImage: {fileID: 21300000, guid: 0932a23baed29476e87cc0c5349dcdb3, type: 3}
   dialogue: {fileID: 11400000, guid: 4627307cb90446848b492657f52b986d, type: 2}
   dialogueOptions: []
   soundEffect:
