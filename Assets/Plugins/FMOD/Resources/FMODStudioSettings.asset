@@ -350,8 +350,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: 
-  sourceBankPath: 
+  sourceProjectPath: Assets/Audio/HAGJ8/HAGJ8.fspro
+  sourceBankPath: Assets/Audio/HAGJ8/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -372,8 +372,15 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks: []
-  Banks: []
+  MasterBanks:
+  - Master
+  Banks:
+  - 01-Happy-Uplifting
+  - 02-Pressure
+  - 03-EasyGoing
+  - 04-Commanding
+  - 05-ManipulationSchemeSerious
+  - SFX
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
@@ -389,17 +396,17 @@ MonoBehaviour:
   HideSetupWizard: 0
   LastEventReferenceScanVersion: 131609
   Platforms:
-  - {fileID: 8926559052673725292}
+  - {fileID: -9108506265050791186}
+  - {fileID: -6438148988940821048}
+  - {fileID: -4130811689047418120}
+  - {fileID: -2398812585584471287}
+  - {fileID: -1895306946897033536}
+  - {fileID: 4648808977269972684}
+  - {fileID: 6374581941056524996}
+  - {fileID: 6511596908850519500}
   - {fileID: 6516417164821688127}
   - {fileID: 6834500697133233670}
-  - {fileID: -6438148988940821048}
-  - {fileID: -1895306946897033536}
-  - {fileID: -9108506265050791186}
-  - {fileID: 4648808977269972684}
-  - {fileID: -4130811689047418120}
-  - {fileID: 6511596908850519500}
-  - {fileID: 6374581941056524996}
-  - {fileID: -2398812585584471287}
+  - {fileID: 8926559052673725292}
   MigratedPlatforms: 150000000c0000000b0000000a00000005000000060000000800000009000000120000000200000001000000
 --- !u!114 &4648808977269972684
 MonoBehaviour:
@@ -532,15 +539,15 @@ MonoBehaviour:
     HasValue: 0
   displaySortOrder: 0
   childIdentifiers:
-  - 46fbfdf3fc43db0458918377fd40293e
+  - c88d16e5272a4e241b0ef0ac2e53b73d
+  - b7716510a1f36934c87976f3a81dbf3d
+  - 52eb9df5db46521439908db3a29a1bbb
+  - fd7c55dab0fce234b8c25f6ffca523c1
+  - 2c5177b11d81d824dbb064f9ac8527da
+  - e7a046c753c3c3d4aacc91f6597f310d
   - 2fea114e74ecf3c4f920e1d5cc1c4c40
   - 0f8eb3f400726694eb47beb1a9f94ce8
-  - b7716510a1f36934c87976f3a81dbf3d
-  - fd7c55dab0fce234b8c25f6ffca523c1
-  - c88d16e5272a4e241b0ef0ac2e53b73d
-  - 2c5177b11d81d824dbb064f9ac8527da
-  - 52eb9df5db46521439908db3a29a1bbb
-  - e7a046c753c3c3d4aacc91f6597f310d
+  - 46fbfdf3fc43db0458918377fd40293e
   codecChannels:
     Value: []
     HasValue: 0
