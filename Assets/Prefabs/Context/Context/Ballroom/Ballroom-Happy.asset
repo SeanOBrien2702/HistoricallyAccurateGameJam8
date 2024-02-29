@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 21300000, guid: 2565a62a84d084fc9a70f9c48ee90dd6, type: 3}
   dialogues:
-  - {fileID: 11400000, guid: bc4789e5da7f18b44897d5227978e3d4, type: 2}
-  - {fileID: 11400000, guid: 5a2ac61e44b9e034d8b336a53e60e7ab, type: 2}
+  - {fileID: 11400000, guid: 10055602bb4c6624f9bcd284a9ec3ebd, type: 2}
+  - {fileID: 11400000, guid: 030bdb3d1e7e3d64ea527c8300f54669, type: 2}
+  - {fileID: 11400000, guid: bcb907bee3bfdac489a03677d976f9e5, type: 2}
+  - {fileID: 11400000, guid: 04a36fb018d61b2468d0e3cdd7241638, type: 2}
+  - {fileID: 11400000, guid: 04166f55fbeaa3341af5145ef68ec334, type: 2}
+  - {fileID: 11400000, guid: 8d3f9a7a881076a469384f66efa1e2a9, type: 2}
   backgroundMusic: 0
   musicIntensity: -1

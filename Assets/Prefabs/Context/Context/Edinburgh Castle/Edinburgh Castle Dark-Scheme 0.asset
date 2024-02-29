@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Edinburgh Castle Dark-Scheme 0
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 21300000, guid: 22728ebbb002f46d2bdec477cad41878, type: 3}
-  dialogues: []
+  dialogues:
+  - {fileID: 11400000, guid: d610f395529a5014390bf1030a20b532, type: 2}
+  - {fileID: 11400000, guid: 48272f9a66ea400489f760d73c853f46, type: 2}
   backgroundMusic: 4
   musicIntensity: 0

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Holyrood Palace-Scheme 1
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 21300000, guid: 3ee8757b876a048769b1070773bfc232, type: 3}
-  dialogues: []
+  dialogues:
+  - {fileID: 11400000, guid: aa04207b650878646b94d0ce429e5ba2, type: 2}
+  - {fileID: 11400000, guid: 70a22422aef85ac4e92ecdb284a434c6, type: 2}
   backgroundMusic: 4
   musicIntensity: 1

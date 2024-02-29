@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: Holyrood Palace-Commanding
   m_EditorClassIdentifier: 
   backgroundImage: {fileID: 21300000, guid: 3ee8757b876a048769b1070773bfc232, type: 3}
-  dialogues: []
+  dialogues:
+  - {fileID: 11400000, guid: 1ad42c0d650c1804bbe234edb3fc6a7d, type: 2}
+  - {fileID: 11400000, guid: 1838a4fdf2240fc4dbf0493b50dbd3ae, type: 2}
+  - {fileID: 11400000, guid: e59a3bf7749e9094e912dbf1c92d35e6, type: 2}
+  - {fileID: 11400000, guid: c7f29110fc7de70489dc0c44611df056, type: 2}
   backgroundMusic: 3
   musicIntensity: -1
